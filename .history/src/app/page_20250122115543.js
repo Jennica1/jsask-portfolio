@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex justify-center flex-col items-center">
       <Header />
-      <main className="p-5">
+      <main>
         <section className="relative ">
           {/* Background Image */}
           <Image
@@ -61,16 +61,17 @@ export default function Home() {
             </div>
           </div>
         </section>
-
+        
         <section>
-          <h2 className="mt-6 md:mt-3 text-xl font-bold">The Issue</h2>
-          <p>
-            The goal was to create an app that was relevant to a current world
-            issue and a way to provide a solution to it. The issue was
-            endangered animals and the solution was to educate those at an early
-            age to develop an early understanding on what they can do to help.
-          </p>
-        </section>
+        <h2 className="mt-6 md:mt-3 text-xl font-bold">The Issue</h2>
+            <p>
+              The goal was to create an app that was relevant to a current world
+              issue and a way to provide a solution to it. The issue was
+              endangered animals and the solution was to educate those at an
+              early age to develop an early understanding on what they can do to
+              help.
+            </p>
+          </section>
         <section className="relative flex flex-col md:flex-row items-start  ">
           <Image
             src="/images/Background - Dark Blue.svg"
@@ -79,17 +80,9 @@ export default function Home() {
             alt="Background Image"
             className="w-full h-auto object-cover"
           />
-
-          <h2 className="mt-6 md:mt-3 text-xl font-bold">Background Information</h2>
-          <p>
-            The goal was to create an app that was relevant to a current world
-            issue and a way to provide a solution to it. The issue was
-            endangered animals and the solution was to educate those at an early
-            age to develop an early understanding on what they can do to help.
-          </p>
         </section>
 
-        <section className="relative flex flex-col md:flex-row items-start ">
+        <section className="relative flex flex-col md:flex-row items-start gap-8 p-8 ">
           <Image
             src="/images/Background - Light Blue.svg"
             width={0}
@@ -98,13 +91,6 @@ export default function Home() {
             className="w-full h-auto object-cover -z-10 object-cover"
           />
 
-          <h2 className="mt-6 md:mt-3 text-xl font-bold">Challenges Faced:</h2>
-          <p>
-            The goal was to create an app that was relevant to a current world
-            issue and a way to provide a solution to it. The issue was
-            endangered animals and the solution was to educate those at an early
-            age to develop an early understanding on what they can do to help.
-          </p>
         </section>
       </main>
     </div>

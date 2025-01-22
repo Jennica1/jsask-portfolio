@@ -6,15 +6,15 @@ export default function Home() {
   return (
     <div className="flex justify-center flex-col items-center">
       <Header />
-      <main className="p-5">
-        <section className="relative ">
+      <main>
+        <section className="relative">
           {/* Background Image */}
           <Image
             src="/images/Proj_Background.svg"
             width={0}
             height={0}
             alt="Background Image"
-            className="w-full h-auto absolute inset-0 object-cover "
+            className="w-full h-auto absolute inset-0 -z-10 object-cover"
           />
 
           {/* Foreground Content */}
@@ -37,9 +37,7 @@ export default function Home() {
                 endangered animals across the globe through interactive
                 learning.
               </p>
-              <h2 className="mt-6 md:mt-3 text-xl font-bold">
-                Project Details:
-              </h2>
+              <h2 className="mt-6 md:mt-3 text-xl font-bold">Project Details:</h2>
               <div className="mt-4">
                 <p className="text-base font-medium md:-mt-3">Role:</p>
                 <p className="text-base">App Interface Designer</p>
@@ -61,51 +59,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <section>
-          <h2 className="mt-6 md:mt-3 text-xl font-bold">The Issue</h2>
-          <p>
-            The goal was to create an app that was relevant to a current world
-            issue and a way to provide a solution to it. The issue was
-            endangered animals and the solution was to educate those at an early
-            age to develop an early understanding on what they can do to help.
-          </p>
-        </section>
-        <section className="relative flex flex-col md:flex-row items-start  ">
-          <Image
-            src="/images/Background - Dark Blue.svg"
-            width={0}
-            height={0}
-            alt="Background Image"
-            className="w-full h-auto object-cover"
-          />
-
-          <h2 className="mt-6 md:mt-3 text-xl font-bold">Background Information</h2>
-          <p>
-            The goal was to create an app that was relevant to a current world
-            issue and a way to provide a solution to it. The issue was
-            endangered animals and the solution was to educate those at an early
-            age to develop an early understanding on what they can do to help.
-          </p>
-        </section>
-
-        <section className="relative flex flex-col md:flex-row items-start ">
-          <Image
-            src="/images/Background - Light Blue.svg"
-            width={0}
-            height={0}
-            alt="Background Image"
-            className="w-full h-auto object-cover -z-10 object-cover"
-          />
-
-          <h2 className="mt-6 md:mt-3 text-xl font-bold">Challenges Faced:</h2>
-          <p>
-            The goal was to create an app that was relevant to a current world
-            issue and a way to provide a solution to it. The issue was
-            endangered animals and the solution was to educate those at an early
-            age to develop an early understanding on what they can do to help.
-          </p>
-        </section>
+      
+      <section>
+        <h2>The Issue</h2>
+        <p>The goal was to create an app that was relevant to a current world issue and a way to provide a solution to it. The issue was endangered animals and the solution was to educate those at an early age to develop an early understanding on what they can do to help.</p>
+      </section>
       </main>
     </div>
   );
