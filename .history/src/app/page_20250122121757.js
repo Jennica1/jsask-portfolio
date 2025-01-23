@@ -98,7 +98,7 @@ export default function Home() {
             className="w-full h-auto object-cover -z-10 object-cover"
           />
 
-          <h2 className="mt-6 md:mt-3 text-xl font-bold">Challenges Faced:</h2>
+          <h2 className="mt-6 md:mt-3 text-xl font-bold">The Issue</h2>
           <p>
             The goal was to create an app that was relevant to a current world
             issue and a way to provide a solution to it. The issue was
