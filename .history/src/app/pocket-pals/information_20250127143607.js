@@ -30,7 +30,7 @@ export default function Information() {
           </ul>
 
           <h2 className="mt-6  md:mt-3 text-xl font-bold">Challenges Faced:</h2>
-          <ul className="list-disc ml-6 mb-6">
+          <ul className="list-disc ml-6">
             <li>
               Colour choices were bright but, visually unappealing and
               frequently clashed together.

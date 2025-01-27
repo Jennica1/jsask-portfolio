@@ -27,19 +27,19 @@ export default function AppInformation() {
             />
 
             {/* App Details */}
-            <div className="text-sm lg:pt-10 sm:w-2/3">
+            <div className="text-sm lg:pt-10 md:1 sm:w-2/3">
               <span className="inline-flex items-baseline ">
                 <h2 className="text-2xl font-bold">Pocket Pals</h2>
                 <a href="https://pocketpals.vercel.app/">Pocket Pals</a>
               </span>
 
               <p className="text-base text-gray-600">UI/UX</p>
-              <p className="mt-4 md:mt-1 text-base w-[90%]">
+              <p className="mt-4 md:mt-2 text-base w-[90%]">
                 A learning app for kids. Focused on educating children about
                 endangered animals across the globe through interactive
                 learning.
               </p>
-              <h2 className="mt-6 md:mt-1 text-xl font-bold">
+              <h2 className="mt-6 md:mt-3 text-xl font-bold">
                 Project Details:
               </h2>
               <div className="mt-4">

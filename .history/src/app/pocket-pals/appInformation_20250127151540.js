@@ -34,12 +34,12 @@ export default function AppInformation() {
               </span>
 
               <p className="text-base text-gray-600">UI/UX</p>
-              <p className="mt-4 md:mt-1 text-base w-[90%]">
+              <p className="mt-4 md:mt-2 text-base w-[90%]">
                 A learning app for kids. Focused on educating children about
                 endangered animals across the globe through interactive
                 learning.
               </p>
-              <h2 className="mt-6 md:mt-1 text-xl font-bold">
+              <h2 className="mt-6 md:mt-3 text-xl font-bold">
                 Project Details:
               </h2>
               <div className="mt-4">

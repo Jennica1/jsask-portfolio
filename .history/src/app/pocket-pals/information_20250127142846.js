@@ -5,7 +5,7 @@ export default function Information() {
     return(
         <>
         <section className="">
-          <h2 className="mt-6 md:mt-3 text-xl font-bold">The Purpose:</h2>
+          <h2 className="mt-12 md:mt-3 text-xl font-bold">The Purpose:</h2>
           <p>
             The goal was to create an app that educated children about
             endangered animals world issue in order to develop an early
@@ -29,8 +29,8 @@ export default function Information() {
             </li>
           </ul>
 
-          <h2 className="mt-6  md:mt-3 text-xl font-bold">Challenges Faced:</h2>
-          <ul className="list-disc ml-6 mb-6">
+          <h2 className="mt-6 md:mt-3 text-xl font-bold">Challenges Faced:</h2>
+          <ul className="list-disc ml-6">
             <li>
               Colour choices were bright but, visually unappealing and
               frequently clashed together.

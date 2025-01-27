@@ -39,7 +39,7 @@ export default function AppInformation() {
                 endangered animals across the globe through interactive
                 learning.
               </p>
-              <h2 className="mt-6 md:mt-1 text-xl font-bold">
+              <h2 className="mt-6 md:mt-3 text-xl font-bold">
                 Project Details:
               </h2>
               <div className="mt-4">
