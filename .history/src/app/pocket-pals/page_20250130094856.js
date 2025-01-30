@@ -74,7 +74,6 @@ export default function pocketPals() {
             />
             <Image
               src="/pocketPals/HiFi - Styling.png"
-              quality={100}
               width={0}
               height={0}
               className="w-full h-full p-10"
@@ -92,7 +91,6 @@ export default function pocketPals() {
             <div className="hidden md:flex gap-4 items-center -mt-3">
               <Image
                 src="/pocketPals/MidFi - Choose Your Region.png"
-                quality={100}
                 width={0}
                 height={0}
                 className="w-full h-auto"
@@ -100,7 +98,6 @@ export default function pocketPals() {
               />
               <Image
                 src="/pocketPals/MidFi - Article.png"
-                quality={100}
                 width={0}
                 height={0}
                 className="w-full h-auto"
@@ -108,7 +105,6 @@ export default function pocketPals() {
               />
               <Image
                 src="/pocketPals/MidFi - Leading Page.png"
-                quality={100}
                 width={0}
                 height={0}
                 className="w-full h-full"
@@ -149,7 +145,6 @@ export default function pocketPals() {
             <div className="hidden md:flex gap-4 items-center -mt-3">
               <Image
                 src="/pocketPals/LoFi - Leading Page.png"
-                quality={100}
                 width={0}
                 height={0}
                 className="w-full h-auto"
@@ -157,7 +152,6 @@ export default function pocketPals() {
               />
               <Image
                 src="/pocketPals/LoFi - Article.png"
-                quality={100}
                 width={0}
                 height={0}
                 className="w-full h-auto "
