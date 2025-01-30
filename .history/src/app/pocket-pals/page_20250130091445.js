@@ -35,7 +35,7 @@ export default function pocketPals() {
                 alt="HiFi - Marmot Article"
               />
               <Image
-                src="/pocketPals/HiFi - Choose Your Topic.webp"
+                src="/pocketPals/HiFi - Choose Your Topic.png"
                 width={0}
                 height={0}
                 className="w-full h-auto"
