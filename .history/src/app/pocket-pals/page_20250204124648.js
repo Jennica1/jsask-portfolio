@@ -212,7 +212,7 @@ export default function pocketPals() {
       { image: "./pocketPals/LoFi - Site Map.png", alt: "Slide 2" },
     ]}
     height="h-auto"
-    width="w-52"
+    width="w-53"
   />
 </div>
 

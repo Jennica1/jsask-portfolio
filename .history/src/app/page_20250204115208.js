@@ -13,11 +13,11 @@ export default function Home() {
     <main className="flex justify-center flex-col items-center">
       <Header/>
       
-      
-      <Hero className="p-5"/>
+      <h1>Jennica's Portfolio</h1>
+      <Hero/>
   
    <ProjectsGrid/>
-    
+      <Link href="/pocket-pals">Pocket Pals</Link>
     </main>
     </>
   );

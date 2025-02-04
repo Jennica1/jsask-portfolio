@@ -17,7 +17,7 @@ export default function Header() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Link href="/#projects">Projects</Link>
+          <Link href="#projects">Projects</Link>
           <Link href="/">About</Link>
           <Link href="/">Contact</Link>
         </div>

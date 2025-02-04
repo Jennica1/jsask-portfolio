@@ -70,7 +70,7 @@ export default function pocketPals() {
                 },
               ]}
               height="h-auto"
-              width="w-52"
+              width="w-40"
             />
             <Image
               src="/pocketPals/HiFi - Styling.png"
@@ -148,7 +148,7 @@ export default function pocketPals() {
                 
               ]}
               height="h-auto"
-              width="w-52"
+              width="w-45"
             />
           </div>
         </section>
@@ -189,6 +189,8 @@ export default function pocketPals() {
               />
             </div>
           </div>
+
+          {/* Slideshow for smaller screens */}
           {/* Slideshow for smaller screens */}
 <div className="flex md:hidden w-full flex-col items-center gap-8 py-10">
   <Slideshow

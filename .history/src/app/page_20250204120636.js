@@ -13,8 +13,8 @@ export default function Home() {
     <main className="flex justify-center flex-col items-center">
       <Header/>
       
-      
-      <Hero className="p-5"/>
+      <h1 className="font-bold">Jennica Sask</h1>
+      <Hero/>
   
    <ProjectsGrid/>
     

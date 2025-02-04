@@ -14,7 +14,7 @@ export default function Home() {
       <Header/>
       
       
-      <Hero className="p-5"/>
+      <Hero className="p-50"/>
   
    <ProjectsGrid/>
     

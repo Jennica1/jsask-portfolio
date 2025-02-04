@@ -70,7 +70,7 @@ export default function pocketPals() {
                 },
               ]}
               height="h-auto"
-              width="w-52"
+              width="w-40"
             />
             <Image
               src="/pocketPals/HiFi - Styling.png"
