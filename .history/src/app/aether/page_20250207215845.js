@@ -134,7 +134,7 @@ export default function Aether() {
 
         <section>
           <h2 className=" md:mt-3 text-xl font-bold  mb-5">Core Features:</h2>
-          <div className="flex flex-row content-center place-content-center">
+          <div className="flex flex-row content-center">
             <section className="flex gap-6 max-w-4xl">
               {/* Left Box (Rectangle Div) */}
               <div className="w-[8px] bg-[#AC0022] h-80"></div>

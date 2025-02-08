@@ -1,13 +1,12 @@
-import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
 export default function AppInformation({ appName, appLink, role, skills, description, status }) {
   return (
     <section className="flex justify-center">
-      <div className="flex justify-center w-full max-w-4xl items-end">
+      <div className="flex flex-row sm:flex-col sm:gap-y-6 justify-center w-full max-w-4xl gap-x-10">
         {/* Left Section */}
-        <div className="text-sm lg:pt-10 md:text-xs max-w-fit">
+        <div className="w-1/2 lg:w-1/2 sm:w-full px-4 text-sm lg:pt-10 md:text-xs">
           <span className="inline-flex items-baseline pb-1">
             <h2 className="text-3xl font-bold mr-2">{appName}</h2>
             <Link
@@ -24,14 +23,13 @@ export default function AppInformation({ appName, appLink, role, skills, descrip
             {status}
           </p>
 
-          <p className="mt-4 md:mt-1 text-base md:text-sm max-w-sm">
+          <p className="mt-4 md:mt-1 text-base md:text-sm">
             {description}
           </p>
-
         </div>
 
         {/* Right Section */}
-        <div className="w-auto ">
+        <div className="w-1/2 lg:w-1/2 sm:w-full px-4">
           <h2 className="mt-6 md:mt-2 text-xl font-bold md:text-lg">
             Project Details:
           </h2>

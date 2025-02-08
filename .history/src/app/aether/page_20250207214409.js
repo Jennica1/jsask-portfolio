@@ -132,27 +132,27 @@ export default function Aether() {
           </div>
         </section>
 
-        <section>
+        <section className="flex">
           <h2 className=" md:mt-3 text-xl font-bold  mb-5">Core Features:</h2>
-          <div className="flex flex-row content-center place-content-center">
-            <section className="flex gap-6 max-w-4xl">
+          <div>
+            <section className="flex gap-6 mx-auto">
               {/* Left Box (Rectangle Div) */}
-              <div className="w-[8px] bg-[#AC0022] h-80"></div>
+              <div className="w-[8px] bg-[#AC0022] h-grow"></div>
 
               {/* Main Content */}
-              <div className="w-2/5 ">
-                <button className="text-left">
+              <div className="w-1/5">
+                <div>
                   <h2 className="md:mt-3 text-4xl font-bold">Clarity</h2>
                   <p>Aether turns complex terms into clear steps for confident form completion.</p>
-                </button>
-                <button className="text-left">
+                </div>
+                <div>
                   <h2 className="md:mt-3 text-4xl font-bold">Summarize</h2>
                   <p>Aether highlights key points, saving you from reading lengthy documents.</p>
-                </button>
-                <button className="text-left">
+                </div>
+                <div>
                   <h2 className="md:mt-3 text-4xl font-bold">Streamline</h2>
                   <p>Aether automates form-filling and clarifies jargon, making the process efficient.</p>
-                </button>
+                </div>
               </div>
             </section>
 
@@ -167,12 +167,12 @@ export default function Aether() {
                 width={0} height={0}
                 unoptimized
                 alt="user persona"
-                className="w-auto h-auto hidden" />
+                className="w-auto h-auto" />
               <Image src="/aether/Streamline.webp"
                 width={0} height={0}
                 unoptimized
                 alt="user persona"
-                className="w-auto h-auto hidden" />
+                className="w-auto h-auto" />
             </div>
           </div>
         </section>

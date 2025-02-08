@@ -132,12 +132,12 @@ export default function Aether() {
           </div>
         </section>
 
-        <section>
+        <section className="">
           <h2 className=" md:mt-3 text-xl font-bold  mb-5">Core Features:</h2>
-          <div className="flex flex-row content-center place-content-center">
+          <div className="flex flex-row">
             <section className="flex gap-6 max-w-4xl">
               {/* Left Box (Rectangle Div) */}
-              <div className="w-[8px] bg-[#AC0022] h-80"></div>
+              <div className="w-[8px] bg-[#AC0022] h-grow"></div>
 
               {/* Main Content */}
               <div className="w-2/5 ">
@@ -167,12 +167,12 @@ export default function Aether() {
                 width={0} height={0}
                 unoptimized
                 alt="user persona"
-                className="w-auto h-auto hidden" />
+                className="w-auto h-auto" />
               <Image src="/aether/Streamline.webp"
                 width={0} height={0}
                 unoptimized
                 alt="user persona"
-                className="w-auto h-auto hidden" />
+                className="w-auto h-auto" />
             </div>
           </div>
         </section>

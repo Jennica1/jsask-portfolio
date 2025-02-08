@@ -25,8 +25,8 @@ export default function AppInformation({ appName, appLink, role, skills, descrip
           </p>
 
           <p className="mt-4 md:mt-1 text-base md:text-sm max-w-sm">
-            {description}
-          </p>
+  {description}
+</p>
 
         </div>
 

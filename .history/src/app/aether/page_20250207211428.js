@@ -26,26 +26,26 @@ export default function Aether() {
           status="Development"
         />
 
-        <section className="flex flex-row justify-center  gap-6 w-full max-w-6xl mx-auto pt-10">
-          {/* Left Box */}
-          <div className="w-[8px] bg-[#AC0022] h-grow"></div>
+<section className="flex flex-row items-stretch gap-6 w-full max-w-6xl mx-auto">
+  {/* Left Box */}
+  <div className="w-[8px] bg-[#AC0022] h-grow"></div>
 
-          {/* Main Content */}
-          <div className="flex-1 max-w-fit">
-            <h2 className="md:mt-3 text-xl font-bold ">Context:</h2>
-            <p className="max-w-xl">
-              Aether is an AI-powered app, focused on helping caregivers and individuals by simplifying the form-filling process. Our mission is to automate tedious tasks, clarify confusing language, and save valuable time, making paperwork easier for everyone.
-            </p>
+  {/* Main Content */}
+  <div className="flex-1">
+    <h2 className="md:mt-3 text-xl font-bold w-auto">Context:</h2>
+    <p className="max-w-xl">
+      Aether is an AI-powered app, focused on helping caregivers and individuals by simplifying the form-filling process. Our mission is to automate tedious tasks, clarify confusing language, and save valuable time, making paperwork easier for everyone.
+    </p>
 
-            <h2 className="mt-6 md:mt-3 text-xl font-bold">Key Issues to Solve:</h2>
-            <ul className="list-disc ml-6 mb-6">
-              <li>Relieving caregivers of tedious tasks of repetitive form filling.</li>
-              <li>Translating document jargon to more easy-to-understand terms.</li>
-              <li>Unnecessary effort to look for different Canadian government forms.</li>
-              <li>Managing several client information and keeping it organized.</li>
-            </ul>
-          </div>
-        </section>
+    <h2 className="mt-6 md:mt-3 text-xl font-bold">Key Issues to Solve:</h2>
+    <ul className="list-disc ml-6 mb-6">
+      <li>Relieving caregivers of tedious tasks of repetitive form filling.</li>
+      <li>Translating document jargon to more easy-to-understand terms.</li>
+      <li>Unnecessary effort to look for different Canadian government forms.</li>
+      <li>Managing several client information and keeping it organized.</li>
+    </ul>
+  </div>
+</section>
 
 
         <section className="">
@@ -133,29 +133,22 @@ export default function Aether() {
         </section>
 
         <section>
-          <h2 className=" md:mt-3 text-xl font-bold  mb-5">Core Features:</h2>
-          <div className="flex flex-row content-center place-content-center">
-            <section className="flex gap-6 max-w-4xl">
-              {/* Left Box (Rectangle Div) */}
-              <div className="w-[8px] bg-[#AC0022] h-80"></div>
-
-              {/* Main Content */}
-              <div className="w-2/5 ">
-                <button className="text-left">
-                  <h2 className="md:mt-3 text-4xl font-bold">Clarity</h2>
-                  <p>Aether turns complex terms into clear steps for confident form completion.</p>
-                </button>
-                <button className="text-left">
-                  <h2 className="md:mt-3 text-4xl font-bold">Summarize</h2>
-                  <p>Aether highlights key points, saving you from reading lengthy documents.</p>
-                </button>
-                <button className="text-left">
-                  <h2 className="md:mt-3 text-4xl font-bold">Streamline</h2>
-                  <p>Aether automates form-filling and clarifies jargon, making the process efficient.</p>
-                </button>
+          <h2 className=" md:mt-3 text-xl font-bold ">Core Features:</h2>
+          <div>
+            <div className="w-1/5">
+              <div>
+                <h2 className=" md:mt-3 text-4xl font-bold ">Clarity</h2>
+                <p >Aether turns complex terms into clear steps for confident form completion.</p>
               </div>
-            </section>
-
+              <div>
+                <h2 className=" md:mt-3 text-4xl font-bold ">Summarize</h2>
+                <p>Aether highlights key points, saving you from reading lengthy documents.</p>
+              </div>
+              <div>
+                <h2 className=" md:mt-3 text-4xl font-bold ">Streamline</h2>
+                <p>Aether automates form-filling and clarifies jargon, making the process efficient.</p>
+              </div>
+            </div>
 
             <div>
               <Image src="/aether/Clarify.webp"
@@ -167,12 +160,12 @@ export default function Aether() {
                 width={0} height={0}
                 unoptimized
                 alt="user persona"
-                className="w-auto h-auto hidden" />
+                className="w-auto h-auto" />
               <Image src="/aether/Streamline.webp"
                 width={0} height={0}
                 unoptimized
                 alt="user persona"
-                className="w-auto h-auto hidden" />
+                className="w-auto h-auto" />
             </div>
           </div>
         </section>

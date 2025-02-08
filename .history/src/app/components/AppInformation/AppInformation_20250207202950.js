@@ -4,8 +4,9 @@ import Link from "next/link";
 
 export default function AppInformation({ appName, appLink, role, skills, description, status }) {
   return (
-    <section className="flex justify-center">
-      <div className="flex justify-center w-full max-w-4xl items-end">
+    <section className="flex flex-row sm:flex-col items-end gap-x-10 w-full max-w-6xl mx-auto">
+
+      <div className="flex justify-center w-full max-w-4xl">
         {/* Left Section */}
         <div className="text-sm lg:pt-10 md:text-xs max-w-fit">
           <span className="inline-flex items-baseline pb-1">
@@ -25,8 +26,8 @@ export default function AppInformation({ appName, appLink, role, skills, descrip
           </p>
 
           <p className="mt-4 md:mt-1 text-base md:text-sm max-w-sm">
-            {description}
-          </p>
+  {description}
+</p>
 
         </div>
 
