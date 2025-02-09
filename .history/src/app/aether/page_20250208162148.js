@@ -8,7 +8,7 @@ export default function Aether() {
   return (
     <div className="flex justify-center flex-col items-center">
       <Header />
-      <main className="lg:px-40 p-5 opacity-0 animate-fadeIn animate-slideIn">
+      <main className="lg:px-24 p-5 opacity-0 animate-fadeIn animate-slideIn">
         <video
           autoPlay
           loop

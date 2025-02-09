@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Header from "../components/Header/Header";
+import Link from "next/link";
 import AppInformation from "../components/AppInformation/AppInformation";
-import CoreValues from "./coreValues";
+
 
 export default function Aether() {
   return (
     <div className="flex justify-center flex-col items-center">
       <Header />
-      <main className="lg:px-40 p-5 opacity-0 animate-fadeIn animate-slideIn">
+      <main className="lg:px-24 p-5 opacity-0 animate-fadeIn animate-slideIn">
         <video
           autoPlay
           loop
@@ -153,7 +154,7 @@ export default function Aether() {
           </div>
         </section>
 
-        <CoreValues />
+<coreValues/>
 
       </main>
     </div>

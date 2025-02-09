@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Header from "../components/Header/Header";
+import Link from "next/link";
 import AppInformation from "../components/AppInformation/AppInformation";
-import CoreValues from "./coreValues";
 
 export default function Aether() {
   return (
     <div className="flex justify-center flex-col items-center">
       <Header />
-      <main className="lg:px-40 p-5 opacity-0 animate-fadeIn animate-slideIn">
+      <main className="lg:px-24 p-5 opacity-0 animate-fadeIn animate-slideIn">
         <video
           autoPlay
           loop
@@ -49,37 +49,34 @@ export default function Aether() {
 
         <section className="mt-44">
           <h2 className="md:mt-3 text-xl font-bold">Background Research:</h2>
-          <p className="max-w-xl mb-4 ">
+          <p className="max-w-xl">
             Our survey sought to understand the diverse experiences of caregivers when managing forms for elderly individuals. To enhance the Aether app’s usability and effectiveness, we recommend incorporating the following innovative strategies:
           </p>
-          <div className="p-6 bg-[#625D9C] rounded-3xl">
-            <div className="flex flex-row space-x-8 text-[#F9F3ED]">
-              <div className="flex flex-col">
-                <h2 className="md:mt-3 text-xl font-bold">Simplify Form-filling Process</h2>
-                <p className="max-w-xl">
-                  Action: Create an interface with simplified language and tooltips to explain complex legal or medical terminology. Add an error-checking feature to prevent users from submitting incomplete or incorrect forms, reducing stress.
-                </p>
+          <div className="flex flex-row">
+            <div className="flex flex-col">
+              <h2 className="md:mt-3 text-xl font-bold">Simplify Form-filling Process</h2>
+              <p className="max-w-xl">
+                Action: Create an interface with simplified language and tooltips to explain complex legal or medical terminology. Add a error-checking feature to prevent users from submitting incomplete or incorrect forms, reducing stress.
+              </p>
 
-                <h2 className="md:mt-3 text-xl font-bold">Improve App Navigation and Usability</h2>
-                <p className="max-w-xl">
-                  Action: Ensure features like form status and reminders are easily accessible from the home screen. Use a design that avoids overwhelming users with too much information.
-                </p>
-              </div>
+              <h2 className="md:mt-3 text-xl font-bold">Improve App Navigation and Usability</h2>
+              <p className="max-w-xl">
+                Action: Ensure features like form status and reminders are easily accessible from the home screen. Use a design that avoids overwhelming users with too much information.
+              </p>
+            </div>
 
-              <div className="flex flex-col">
-                <h2 className="md:mt-3 text-xl font-bold">Develop Time-saving Features</h2>
-                <p className="max-w-xl">
-                  Action: Add autofill functionality that remembers frequently used information. Introduce smart suggestions that prompt users with likely answers based on their previous submissions.
-                </p>
+            <div className="flex flex-col">
+              <h2 className="md:mt-3 text-xl font-bold">Develope Time-saving Features</h2>
+              <p className="max-w-xl">
+                Action: Add autofill functionality that remembers frequently used information. Introduce smart suggestions that prompt users with likely answers based on their previous submissions.
+              </p>
 
-                <h2 className="md:mt-3 text-xl font-bold">AI - Form Assistance</h2>
-                <p className="max-w-xl">
-                  Action: Implement an AI that will help users who are unsure of how to fill out a form. Allow users to ask questions and have feedback on questions they are unsure about to ensure the form is filled out correctly.
-                </p>
-              </div>
+              <h2 className="md:mt-3 text-xl font-bold">AI - Form Assistance</h2>
+              <p className="max-w-xl">
+                Action: Implement an AI that will help users who are unsure of how to fill out a form. Allow users to ask questions and have feedback on questions they are unsure about to ensure the form is filled out correctly.
+              </p>
             </div>
           </div>
-
         </section>
 
         <section className="mt-44 ">
@@ -100,13 +97,13 @@ export default function Aether() {
               className="h-auto w-full" />
           </div>
           <div className="mt-44">
-            <h2 className="md:mt-3 text-xl font-bold">Lofi Wireframe:</h2>
-            <Image src="/aether/LoFi - Wireframes.webp"
-              width={0} height={0}
-              unoptimized
-              alt="lofi wireframe"
-              className="w-full h-auto" />
-          </div>
+          <h2 className="md:mt-3 text-xl font-bold">Lofi Wireframe:</h2>
+          <Image src="/aether/LoFi - Wireframes.webp"
+            width={0} height={0}
+            unoptimized
+            alt="lofi wireframe"
+            className="w-full h-auto" />
+            </div>
         </section>
 
         <section className="mt-20">
@@ -153,8 +150,49 @@ export default function Aether() {
           </div>
         </section>
 
-        <CoreValues />
+        <section className="mt-20">
+          <h2 className="md:mt-3 text-xl font-bold mb-5">Core Features:</h2>
+          <div className="flex flex-row content-center items-center">
+            <section className="flex gap-6 max-w-4xl">
+              {/* Left Box (Rectangle Div) */}
+              <div className="w-[8px] bg-[#AC0022] h-80"></div>
 
+              {/* Main Content */}
+              <div className="w-2/5">
+                <button className="text-left">
+                  <h2 className="md:mt-3 text-4xl font-bold">Clarity</h2>
+                  <p>Aether turns complex terms into clear steps for confident form completion.</p>
+                </button>
+                <button className="text-left">
+                  <h2 className="md:mt-3 text-4xl font-bold">Summarize</h2>
+                  <p>Aether highlights key points, saving you from reading lengthy documents.</p>
+                </button>
+                <button className="text-left">
+                  <h2 className="md:mt-3 text-4xl font-bold">Streamline</h2>
+                  <p>Aether automates form-filling and clarifies jargon, making the process efficient.</p>
+                </button>
+              </div>
+            </section>
+
+            <div className="">
+              <Image src="/aether/Clarify.webp"
+                width={0} height={0}
+                unoptimized
+                alt="user persona"
+                className="w-2/3 h-auto" />
+              <Image src="/aether/Summarize.webp"
+                width={0} height={0}
+                unoptimized
+                alt="user persona"
+                className="w-auto h-auto hidden" />
+              <Image src="/aether/Streamline.webp"
+                width={0} height={0}
+                unoptimized
+                alt="user persona"
+                className="w-auto h-auto hidden" />
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
