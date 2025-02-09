@@ -24,7 +24,7 @@ const projects = [
     id: 3,
     title: "Aspect of Element",
     description: "Strategy card game similar to King of the Hill but with the power of different elements.",
-    image: "/ACG/Logo.png",
+    image: "/ACG/Logo.webp",
     category: "Illustration",
     path: "/ACG",
   },
