@@ -50,7 +50,7 @@ export const ProjectsGrid = () => {
       : projects.filter((project) => project.category === selectedCategory);
 
   return (
-    <section id="projects" className="py-16 px-4 pb-48">
+    <section id="projects" className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold mb-8">My Projects</h2>
 
@@ -63,8 +63,8 @@ export const ProjectsGrid = () => {
               className={`px-4 py-2 rounded-2xl transition-all duration-300 
                 ${
                   selectedCategory === category
-                    ? "bg-[#AC0022] text-white font-bold  " // Active button
-                    : "border-2 border-[#AC0022]  text-black hover:bg-[#AC0022] hover:text-white"
+                    ? "bg-[#AC0022] text-white font-bold shadow-lg scale-105" // Active button
+                    : "border-4 border-[#AC0022]  text-black hover:bg-[#AC0022] hover:text-white"
                 }`}
             >
               {category}

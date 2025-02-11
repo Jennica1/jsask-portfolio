@@ -5,8 +5,8 @@ import Link from "next/link"
 export default function Header() {
   return (
     <>
-      <header className="sticky w-full fixed top-0 left-0 flex justify-between z-50 px-6 py-4 bg-[#F9F3ED]">
-  
+      <header className="w-full fixed top-0 left-0  flex justify-between z-50 pl-10 pr-10 pt-4 bg-[#F9F3ED]">
+ 
 
         <div className="flex items-center">
           <Link href="/">
@@ -20,8 +20,8 @@ export default function Header() {
 
         <div className="flex items-center space-x-4">
           <Link href="/#projects">Projects</Link>
-          <Link href="/#about">About</Link>
-          <Link href="/#contact">Contact</Link>
+          <Link href="/">About</Link>
+          <Link href="/">Contact</Link>
         </div>
       </header>
     </>

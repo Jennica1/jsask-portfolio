@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <>
-      <div id="about" className="flex flex-col items-center px-4 pt-48 py-3 space-y-2 ">
+      <div className="flex flex-col items-center px-4 pt-46 py-3 space-y-2">
         <h1 className="text-4xl md:text-4xl font-bold">Jennica Sask</h1>
         <p className="text-md md:text-md max-w-xl mb-8 justify-center">
           I’m a junior web designer who is looking to gain experience in the web

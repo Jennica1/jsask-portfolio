@@ -25,7 +25,7 @@ export default function ContactForm() {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Name:
+              Name
             </label>
             <input
               type="text"
@@ -37,7 +37,7 @@ export default function ContactForm() {
             />
           </div>
           <div>
-            <label className="text-sm font-medium text-gray-700">Email:</label>
+            <label className="text-sm font-medium text-gray-700">Email</label>
             <input
               type="email"
               name="email"
@@ -49,7 +49,7 @@ export default function ContactForm() {
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Message:
+              Message
             </label>
             <textarea
               name="message"

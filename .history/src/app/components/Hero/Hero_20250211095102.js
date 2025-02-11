@@ -3,9 +3,9 @@ import React from "react";
 export default function Hero() {
   return (
     <>
-      <div id="about" className="flex flex-col items-center px-4 pt-48 py-3 space-y-2 ">
-        <h1 className="text-4xl md:text-4xl font-bold">Jennica Sask</h1>
-        <p className="text-md md:text-md max-w-xl mb-8 justify-center">
+      <div className="flex flex-col items-center px-4 pt-50 py-3 space-y-2">
+        <h1 className="text-3xl md:text-4xl font-bold">Jennica Sask</h1>
+        <p className="text-md md:text-md text-muted-foreground max-w-xl mb-8 justify-center">
           I’m a junior web designer who is looking to gain experience in the web
           development industry. I’m passionate about combining aesthetics with
           accessible and intuitive design.
