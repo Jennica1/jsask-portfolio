@@ -4,7 +4,6 @@ import Link from "next/link";
 import Slideshow from "./components/Slideshow/PP-wireframe";
 import Hero from "./components/Hero/Hero";
 import { ProjectsGrid } from "./components/ProjectsGrid/ProjetsGrid";
-import ContactForm from "./components/ContactForm/ContactForm";
 
 export default function Home() {
 
@@ -18,7 +17,7 @@ export default function Home() {
       <Hero className="p-5"/>
   
    <ProjectsGrid/>
-    <ContactForm/>
+    
     </main>
     </>
   );

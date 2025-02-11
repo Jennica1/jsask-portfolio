@@ -60,11 +60,11 @@ export const ProjectsGrid = () => {
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`px-4 py-2 rounded-2xl transition-all duration-300 
+              className={`px-4 py-2 rounded-2xl 
                 ${
                   selectedCategory === category
                     ? "bg-[#AC0022] text-white font-bold shadow-lg scale-105" // Active button
-                    : "bg-white text-black hover:bg-[#AC0022] hover:text-white"
+                    : "bg-gray-200 text-black hover:bg-gray-300"
                 }`}
             >
               {category}

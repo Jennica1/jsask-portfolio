@@ -52,32 +52,31 @@ export const ProjectsGrid = () => {
   return (
     <section id="projects" className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8">My Projects</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">My Projects</h2>
 
-        {/* Categories */}
-        <div className="flex flex-wrap gap-2 mb-12">
+        <div className="flex flex-wrap gap-2 justify-center mb-12">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`px-4 py-2 rounded-2xl transition-all duration-300 
-                ${
-                  selectedCategory === category
-                    ? "bg-[#AC0022] text-white font-bold shadow-lg scale-105" // Active button
-                    : "bg-white text-black hover:bg-[#AC0022] hover:text-white"
-                }`}
+              className={`px-4 py-2 rounded-lg transition-colors ${
+                selectedCategory === category
+                  ? "bg-primary text-primary-foreground"
+                  : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+              }`}
             >
               {category}
             </button>
           ))}
         </div>
 
-        {/* Projects */}
+        {/* Fix: Use .map() to render ProjectCard components */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} {...project} className=""/>
-          ))}
-        </div>
+  {filteredProjects.map((project) => (
+    <ProjectCard key={project.id} {...project} />
+  ))}
+</div>
+
       </div>
     </section>
   );

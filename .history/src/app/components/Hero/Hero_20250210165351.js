@@ -12,7 +12,7 @@ export default function Hero() {
         </p>
       </div>
 
-      <div className="flex gap-4 pb-20 pt-10">
+      <div className="flex gap-4 pb-20">
         <a
           href="#projects"
           className="px-4 py-2 hover:opacity-90 transition-opacity bg-[#AC0022] rounded-2xl w-fit h-fit text-base text-[#F9F3ED] underline md:text-sm lg:text-sm"

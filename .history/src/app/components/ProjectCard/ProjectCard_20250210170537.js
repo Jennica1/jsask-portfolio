@@ -6,19 +6,16 @@ export const ProjectCard = ({ title, description, image, category, path }) => {
   const router = useRouter();
 
   const handleNavigation = () => {
-    router.push(path);
+    router.push(path); // Navigate to the assigned path
   };
 
   return (
-    <div 
-      onClick={handleNavigation} 
-      className="cursor-pointer group transition-transform duration-300"
-    >
-      <div className="aspect-video overflow-hidden rounded-lg">
+    <div onClick={handleNavigation} className="cursor-pointer opacity-0 animate-fadeIn animate-slideIn">
+      <div className="aspect-video overflow-hidden">
         <img 
           src={image} 
           alt={title}
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          className="w-full h-full object-cover transition-transform group-hover:scale-105"
         />
       </div>
       <div className="p-6">
@@ -29,4 +26,3 @@ export const ProjectCard = ({ title, description, image, category, path }) => {
     </div>
   );
 };
-

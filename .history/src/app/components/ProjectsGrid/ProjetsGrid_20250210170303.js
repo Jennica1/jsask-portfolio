@@ -64,7 +64,7 @@ export const ProjectsGrid = () => {
                 ${
                   selectedCategory === category
                     ? "bg-[#AC0022] text-white font-bold shadow-lg scale-105" // Active button
-                    : "bg-white text-black hover:bg-[#AC0022] hover:text-white"
+                    : "bg-gray-200 text-black hover:bg-gray-300"
                 }`}
             >
               {category}
@@ -75,7 +75,7 @@ export const ProjectsGrid = () => {
         {/* Projects */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} {...project} className=""/>
+            <ProjectCard key={project.id} {...project} />
           ))}
         </div>
       </div>
