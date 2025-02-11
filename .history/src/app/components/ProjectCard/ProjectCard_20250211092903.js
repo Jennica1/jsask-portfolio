@@ -13,7 +13,7 @@ export const ProjectCard = ({ title, description, image, category, path }) => {
     <div
       onClick={handleNavigation}
       className="cursor-pointer group transition-transform duration-300
-      bg-white rounded-lg"
+      bg-white"
     >
       <div className="aspect-video overflow-hidden rounded-lg ">
         <img
