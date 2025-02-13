@@ -65,13 +65,7 @@ export default function BackgroundInfo() {
             {/* Bottom-Left */}
             <div className="flex flex-col space-y-2 p-6 bg-[#625D9C] rounded-3xl">
               <ul className="list-none pl-0">
-              <li className="text-xl font-bold flex items-center pl-8"
-                  style={{
-                    backgroundImage: "url('/images/star.svg')",
-                    backgroundSize: "20px",  // Adjust the size of the bullet
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "left center", // Ensure the bullet is on the left
-                  }}>
+              <li className="text-xl font-bold">
                 Develop Time-saving Features
               </li>
               </ul>
@@ -84,15 +78,7 @@ export default function BackgroundInfo() {
 
             {/* Bottom-Right */}
             <div className="flex flex-col space-y-2 p-6 bg-[#625D9C] rounded-3xl">
-              <ul className="list-none pl-0">
-              <li className="text-xl font-bold flex items-center pl-8"
-                  style={{
-                    backgroundImage: "url('/images/star.svg')",
-                    backgroundSize: "20px",  // Adjust the size of the bullet
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "left center", // Ensure the bullet is on the left
-                  }}>AI - Form Assistance</li>
-              </ul>
+              <h2 className="text-xl font-bold">AI - Form Assistance</h2>
               <p className="max-w-xl pb-4">
                 Action: Implement an AI that will help users who are unsure of
                 how to fill out a form. Allow users to ask questions and have

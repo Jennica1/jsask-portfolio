@@ -40,7 +40,7 @@ export default function Aether() {
 
         <section className="flex flex-row justify-center gap-6 w-full max-w-6xl mx-auto pt-10 mt-20">
           {/* Left Box */}
-          <div className="w-[8px] bg-[#890620] h-grow"></div>
+          <div className="w-[8px] bg-[#AC0022] h-grow"></div>
 
           {/* Main Content */}
           <div className="flex-1 max-w-fit">
@@ -52,7 +52,7 @@ export default function Aether() {
             <h2 className="mt-6 md:mt-3 text-xl font-bold">
               Key Issues to Solve:
             </h2>
-            <ul className="list-disc ml-6 mb-6">
+            <ul style={{listStyleImage: "url('.//images/exclam.svg')" }}className=" ml-6 mb-6">
               <li>
                 Relieving caregivers of tedious tasks of repetitive form
                 filling.
