@@ -69,7 +69,7 @@ export default function canMockup() {
             />
           </div>
           
-          <div className="mt-30 ">
+          <div className="mt-32 ">
             <Image
               src="/canMockup/Red.webp"
               width={0}

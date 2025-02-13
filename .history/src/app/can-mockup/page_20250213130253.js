@@ -69,27 +69,6 @@ export default function canMockup() {
             />
           </div>
           
-          <div className="mt-30 ">
-            <Image
-              src="/canMockup/Red.webp"
-              width={0}
-              height={0}
-              unoptimized
-              alt="happy path"
-              className="h-auto w-full"
-            />
-          </div>
-
-          <div className="mt-30 ">
-            <Image
-              src="/canMockup/Orange.webp"
-              width={0}
-              height={0}
-              unoptimized
-              alt="happy path"
-              className="h-auto w-full"
-            />
-          </div>
         </section>
 
       </main>

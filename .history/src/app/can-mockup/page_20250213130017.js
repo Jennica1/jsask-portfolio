@@ -32,7 +32,9 @@ export default function canMockup() {
           status="Graphic Design"
         />
 
-        <section className="flex flex-row justify-center gap-6 w-full max-w-6xl mx-auto pt-5">
+        <section className="flex flex-row justify-center gap-6 w-full max-w-6xl mx-auto pt-10 mt-20">
+
+          {/* Main Content */}
           <div className="flex-1 max-w-fit">
             <h2 className="md:mt-3 text-xl font-bold">Background:</h2>
             <p className="max-w-xl">
@@ -45,9 +47,12 @@ export default function canMockup() {
 
 
         <section className="mt-44">
+
+
           <div className="mt-44">
+            <h2 className="md:mt-3 text-xl font-bold">User Happy Path:</h2>
             <Image
-              src="/canMockup/Can Mockup 2.webp"
+              src="/aether/User Happy Path.webp"
               width={0}
               height={0}
               unoptimized
@@ -55,40 +60,51 @@ export default function canMockup() {
               className="h-auto w-full"
             />
           </div>
+
+   
         </section>
 
-        <section className="mt-20 flex flex-col">
-        <div className="mt-30 ">
-            <Image
-              src="/canMockup/Blueberry.webp"
-              width={0}
-              height={0}
-              unoptimized
-              alt="happy path"
-              className="h-auto w-full"
-            />
-          </div>
-          
-          <div className="mt-30 ">
-            <Image
-              src="/canMockup/Red.webp"
-              width={0}
-              height={0}
-              unoptimized
-              alt="happy path"
-              className="h-auto w-full"
-            />
-          </div>
-
-          <div className="mt-30 ">
-            <Image
-              src="/canMockup/Orange.webp"
-              width={0}
-              height={0}
-              unoptimized
-              alt="happy path"
-              className="h-auto w-full"
-            />
+        <section className="mt-20">
+          <h2 className="md:mt-3 text-xl font-bold">Branding:</h2>
+          <div className="flex flex-col md:flex-row gap-8 md:gap-28">
+            <div>
+              <h2 className="mt-3 text-l font-bold">Logos:</h2>
+              <Image
+                src="/aether/Logos.webp"
+                width={0}
+                height={0}
+                unoptimized
+                alt="Logo"
+                className="w-full h-auto sm:w-3/4 sm:h-auto md:w-full"
+              />
+            </div>
+            <div>
+              <h2 className="mt-3 text-l font-bold">Colours:</h2>
+              <Image
+                src="/aether/Colours.webp"
+                width={0}
+                height={0}
+                unoptimized
+                alt="Colour palette"
+                className="w-full h-auto sm:w-3/4 sm:h-auto md:w-full"
+              />
+            </div>
+            <div>
+              <h2 className="mt-3 text-l font-bold">Font:</h2>
+              <Image
+                src="/aether/Font.webp"
+                width={0}
+                height={0}
+                unoptimized
+                alt="font used: DM Sans"
+                style={{
+                  width: "70%",
+                  height: "auto",
+                  alignItems: "center",
+                  alignContent: "center",
+                }}
+              />
+            </div>
           </div>
         </section>
 

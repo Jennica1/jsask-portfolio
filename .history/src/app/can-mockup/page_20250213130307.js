@@ -71,7 +71,7 @@ export default function canMockup() {
           
           <div className="mt-30 ">
             <Image
-              src="/canMockup/Red.webp"
+              src="/canMockup/Blueberry.webp"
               width={0}
               height={0}
               unoptimized
@@ -82,7 +82,7 @@ export default function canMockup() {
 
           <div className="mt-30 ">
             <Image
-              src="/canMockup/Orange.webp"
+              src="/canMockup/Blueberry.webp"
               width={0}
               height={0}
               unoptimized
