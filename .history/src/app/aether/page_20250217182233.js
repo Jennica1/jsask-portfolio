@@ -137,7 +137,7 @@ export default function Aether() {
             <div className="flex flex-col md:flex-row items-start gap-6 md:gap-12">
               {/* Red Bar and Text Container */}
               <div className="flex flex-row md:flex-row gap-6 w-full max-w-5xl">
-              <div className="w-[8px] bg-[#890620] h-grow"></div>
+                <div className="w-[8px] bg-[#890620] h-full md:h-auto"></div>
 
                 {/* Text Content */}
                 <div className="flex-1 max-w-[90%] md:max-w-lg">

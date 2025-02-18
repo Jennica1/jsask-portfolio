@@ -116,7 +116,7 @@ export default function Aether() {
               <div className="w-full md:w-2/3 pt-6 md:pt-24 md:mr-[20%] md:text-left">
                 <h2 className="text-xl font-bold">Competitive Analysis:</h2>
                 <p className="text-left">
-                  Looking into what apps are currently available, Aether’s research found that there are a few that do provide tools that assist in documentations. However, not only do they not provide an all-in-one solution, but also target different demographic with different various uses.
+                Looking into what apps are currently available, Aether’s research found that there are a few that do provide tools that assist in documentations. However, not only do they not provide an all-in-one solution, but also target different demographic with different various uses.  
                 </p>
               </div>
 
@@ -132,75 +132,67 @@ export default function Aether() {
             </div>
           </section>
 
+          <section className="flex flex-row  gap-6 w-full  mx-auto pt-10 mt-20">
+          {/* Left Box */}
+          <div className="w-[8px] bg-[#890620] h-grow"></div>
+
+          {/* Main Content */}
+          <div className="flex-1 max-w-fit">
+            <p className="max-w-xl">
+            Aether is a form-filling app designed to alleviate stress for
+                  caregivers. It streamlines the document-filling process by
+                  simplifying complex paperwork, saving time through its
+                  auto-fill capabilities, and makes the form-filling process
+                  hassle-free.
+            </p>
+
+            <ul className="list-disc ml-6 mb-6  mt-6 font-bold text-xl">
+              <li>
+                Paraphrasing
+              </li>
+              <li>
+                Autofilling
+              </li>
+              <li>
+              OCR Scanning
+              </li>
+              <li>
+              Text Editor
+              </li>
+            </ul>
+          </div>
+        </section>
 
           <section className="mt-20">
-            <div className="flex flex-col md:flex-row items-start gap-6 md:gap-12">
-              {/* Red Bar and Text Container */}
-              <div className="flex flex-row md:flex-row gap-6 w-full max-w-5xl">
+            <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-8">
+              {/* Text Section */}
               <div className="w-[8px] bg-[#890620] h-grow"></div>
 
-                {/* Text Content */}
-                <div className="flex-1 max-w-[90%] md:max-w-lg">
-                  <h2 className="text-xl font-bold md:mt-3">Solution:</h2>
-                  <p className="mt-4 text-base md:text-lg">
-                    Aether is a form-filling app designed to alleviate stress for caregivers.
-                    It streamlines the document-filling process by simplifying complex paperwork,
-                    saving time through its auto-fill capabilities, and making the form-filling
-                    process hassle-free.
-                  </p>
+          {/* Main Content */}
+          <div className="flex-1 max-w-fit">
+            <p className="max-w-xl">
+            Aether is a form-filling app designed to alleviate stress for
+                  caregivers. It streamlines the document-filling process by
+                  simplifying complex paperwork, saving time through its
+                  auto-fill capabilities, and makes the form-filling process
+                  hassle-free.
+            </p>
 
-                  <ul className="list-disc ml-6 mb-6 mt-6 font-bold text-lg md:text-xl space-y-4">
-                    <li>
-                      <div className="flex justify-between items-center">
-                        <p>Paraphrasing</p>
-                        <Image
-                          src="/images/checkmark-outline.svg"
-                          width={30}
-                          height={30}
-                          unoptimized
-                          alt="checkmark"
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div className="flex justify-between items-center">
-                        <p>Autofilling</p>
-                        <Image
-                          src="/images/checkmark-outline.svg"
-                          width={30}
-                          height={30}
-                          unoptimized
-                          alt="checkmark"
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div className="flex justify-between items-center">
-                        <p>OCR Scanning</p>
-                        <Image
-                          src="/images/checkmark-outline.svg"
-                          width={30}
-                          height={30}
-                          unoptimized
-                          alt="checkmark"
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div className="flex justify-between items-center">
-                        <p>Text Editor</p>
-                        <Image
-                          src="/images/checkmark-outline.svg"
-                          width={30}
-                          height={30}
-                          unoptimized
-                          alt="checkmark"
-                        />
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+            <ul className="list-disc ml-6 mb-6  mt-6 font-bold text-xl">
+              <li>
+                Paraphrasing
+              </li>
+              <li>
+                Autofilling
+              </li>
+              <li>
+              OCR Scanning
+              </li>
+              <li>
+              Text Editor
+              </li>
+            </ul>
+          </div>
 
               {/* Image Section */}
               <Image
@@ -208,13 +200,11 @@ export default function Aether() {
                 width={0}
                 height={0}
                 unoptimized
-                alt="solution illustration"
-                className="w-full md:w-80 h-auto mt-6 md:mt-0 md:ml-12"
+                alt="lofi wireframe"
+                className="w-80  h-auto mt-6 md:mt-0"
               />
             </div>
           </section>
-
-
 
           <div className="mt-44">
             <h2 className="md:mt-3 text-xl font-bold">User Happy Path:</h2>
