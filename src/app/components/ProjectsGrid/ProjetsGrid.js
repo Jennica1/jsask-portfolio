@@ -20,14 +20,14 @@ const projects = [
     category: "Graphic Design",
     path: "/can-mockup", 
   },
-  // {
-  //   id: 3,
-  //   title: "Aspect of Element",
-  //   description: "Strategy card game similar to King of the Hill but with the power of different elements.",
-  //   image: "/ACG/Logo.png",
-  //   category: "Illustration",
-  //   path: "/ACG",
-  // },
+  {
+    id: 3,
+    title: "Aspect of Element",
+    description: "Strategy card game similar to King of the Hill but with the power of different elements.",
+    image: "/ACG/Logo.png",
+    category: "Illustration",
+    path: "/ACG",
+  },
   {
     id: 4,
     title: "Aether",
