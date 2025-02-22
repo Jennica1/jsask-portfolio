@@ -14,7 +14,8 @@ export default function ACG() {
             controls
             preload="none"
             loop
-
+          
+            playsInline
             className="mx-auto w-full max-w-full"
           >
             <source src="/ACG/Acgpromo.webm" />

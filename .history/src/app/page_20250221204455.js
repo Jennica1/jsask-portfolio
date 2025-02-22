@@ -19,7 +19,7 @@ export default function Home() {
   
    <ProjectsGrid/>
    <ContactForm/>
-    {/* <Contact/> */}
+    <Contact/>
     </main>
     </>
   );
