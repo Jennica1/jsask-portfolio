@@ -17,7 +17,7 @@ export default function ACG() {
 
             className="mx-auto w-full max-w-full"
           >
-            <source src="/ACG/acgpromo.mp4" />
+            <source src="/ACG/Acgpromo.webm" />
           </video>
 
           <AppInformation

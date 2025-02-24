@@ -64,7 +64,7 @@ export const ProjectsGrid = () => {
                 ${
                   selectedCategory === category
                     ? "bg-[#890620] text-white font-bold  " // Active button
-                    : "border-2 border-[#890620] text-black hover:bg-[#890620] hover:text-white"
+                    : "border-2 border-[#AC0022]  text-black hover:bg-[#AC0022] hover:text-white"
                 }`}
             >
               {category}

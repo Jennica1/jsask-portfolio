@@ -10,7 +10,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <div id="contact" className="max-w-2xl w-full p-6 bg-white rounded-lg mb-20">
+      <div id="contact" className="max-w-2xl w-full p-6 bg-white rounded-lg mb-10">
         <h2 className="text-3xl font-bold mb-2">Contact Me</h2>
         <p> Have a question or want to connect? Feel free to reach out.</p>
         <div className="flex flex-col gap-2 mt-8">

@@ -18,8 +18,7 @@ export default function Home() {
       <Hero className="p-5"/>
   
    <ProjectsGrid/>
-   <ContactForm/>
-    {/* <Contact/> */}
+    <Contact/>
     </main>
     </>
   );

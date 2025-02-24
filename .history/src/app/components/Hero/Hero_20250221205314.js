@@ -15,13 +15,13 @@ export default function Hero() {
       <div className="flex gap-4 pb-20 pt-10">
         <a
           href="#projects"
-          className="px-4 py-2 border-2 border-[#890620] hover:bg-[#890620] hover:text-[#F9F3ED] transition-all duration-300 rounded-2xl w-fit h-fit text-base text-black md:text-sm lg:text-sm  "
+          className="px-4 py-2 border-2 border-[#890620] hover:bg-[#AC0022] hover:text-[#F9F3ED] rounded-2xl w-fit h-fit text-base text-black md:text-sm lg:text-sm transition-all duration-300 "
         >
           View Projects
         </a>
         <a
           href="#contact"
-          className="px-4 py-2 border-2 border-[#890620] hover:bg-[#890620] hover:text-[#F9F3ED] rounded-2xl w-fit h-fit text-base text-black md:text-sm lg:text-sm transition-all duration-300 "
+          className="px-4 py-2 border-2 border-[#AC0022] hover:bg-[#AC0022] hover:text-[#F9F3ED] rounded-2xl w-fit h-fit text-base text-black md:text-sm lg:text-sm transition-all duration-300 "
         >
           Contact Me!
         </a>
