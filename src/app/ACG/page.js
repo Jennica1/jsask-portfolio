@@ -18,7 +18,7 @@ export default function ACG() {
             playsInline
             className="mx-auto w-full max-w-full"
           >
-            <source src="/ACG/Acgpromo.webm" />
+            <source src="/ACG/acgpromo.mp4" />
           </video>
 
           <AppInformation
