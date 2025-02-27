@@ -81,14 +81,13 @@ export default function Aether() {
           <div>
             <h2 className="md:mt-3 text-3xl font-bold">Key User Personas:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
-            <p className="pt-2 pb-2">
+            <p className="pt-2 pb-6">
               Based on survey results as well as online research two main user
               personas were created:
             </p>
 
-            <ul className="list-disc ml-12 pb-4">
+            <ul>
               <li>Sarah Jones works as a full-time caregiver.</li>
-              <li>Ken Lee works full-time and cares for his mother.</li>
             </ul>
 
             {/* Images visible on medium and larger screens */}

@@ -86,7 +86,7 @@ export default function Aether() {
               personas were created:
             </p>
 
-            <ul className="list-disc ml-12 pb-4">
+            <ul className="list-disc ml-12">
               <li>Sarah Jones works as a full-time caregiver.</li>
               <li>Ken Lee works full-time and cares for his mother.</li>
             </ul>
