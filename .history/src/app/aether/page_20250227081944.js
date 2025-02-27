@@ -236,8 +236,6 @@ export default function Aether() {
             </div>
           </section>
 
-          <CoreValues />
-
           <section className="mt-44">
             <h2 className="md:mt-3 text-3xl font-bold">UI/UX & Design</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
@@ -312,26 +310,28 @@ export default function Aether() {
           </div>
         </section>
 
+        <CoreValues />
+
         <section className="mt-44 ">
           <h2 className="md:mt-3 text-3xl font-bold">Marketing Materials:</h2>
           <hr className="border-black border-2 lg:w-[70%] "></hr>
 
-          <div className="flex pt-2 ">
+          <div className="flex">
             <Link
               href="https://aether-landing-page.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="md:mt-3 text-xl   pb-2 bg-[#890620] rounded-xl text-xs w-fit px-4 py-2 text-base text-[#F9F3ED] underline hover:opacity-80"
             >
-              Landing Page
+              Aether's Landing Page
             </Link>
             <Link
               href="https://www.instagram.com/aether.hq?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noopener noreferrer"
-              className="md:mt-3 text-xl   pb-2 bg-[#890620] rounded-xl text-xs w-fit px-4 py-2 text-base text-[#F9F3ED] underline ml-2 hover:opacity-80 "
+              className="md:mt-3 text-xl   pb-2 bg-[#890620] rounded-xl text-xs w-fit px-4 py-2 text-base text-[#F9F3ED] underline ml-2 hover:opacity-80"
             >
-              Instagram
+              Aether's Instagram
             </Link>
           </div>
           <h2 className="md:mt-3 text-xl font-bold pb-2">Promotion Video:</h2>
@@ -352,18 +352,6 @@ export default function Aether() {
             <h2 className=" text-xl font-bold pb-2 pt-8">Aether Business Card:</h2>
             <Image
               src="/aether/Aether Business Card.png"
-              width={0}
-              height={0}
-              unoptimized
-              alt="business card of Jennica"
-              className="w-full h-auto"
-            />
-          </div>
-
-          <div>
-            <h2 className=" text-xl font-bold pb-2 pt-8">Brochure:</h2>
-            <Image
-              src="/aether/Aether Brochure.png"
               width={0}
               height={0}
               unoptimized

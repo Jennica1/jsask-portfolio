@@ -316,7 +316,7 @@ export default function Aether() {
           <h2 className="md:mt-3 text-3xl font-bold">Marketing Materials:</h2>
           <hr className="border-black border-2 lg:w-[70%] "></hr>
 
-          <div className="flex pt-2 ">
+          <div className="flex pt-2 md:gap-2">
             <Link
               href="https://aether-landing-page.vercel.app/"
               target="_blank"
@@ -329,7 +329,7 @@ export default function Aether() {
               href="https://www.instagram.com/aether.hq?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noopener noreferrer"
-              className="md:mt-3 text-xl   pb-2 bg-[#890620] rounded-xl text-xs w-fit px-4 py-2 text-base text-[#F9F3ED] underline ml-2 hover:opacity-80 "
+              className="md:mt-3 text-xl   pb-2 bg-[#890620] rounded-xl text-xs w-fit px-4 py-2 text-base text-[#F9F3ED] underline lg:ml-2 hover:opacity-80 "
             >
               Instagram
             </Link>

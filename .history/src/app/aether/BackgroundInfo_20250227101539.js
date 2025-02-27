@@ -91,7 +91,7 @@ export default function BackgroundInfo() {
               likely answers based on their previous submissions.
             </p>
 
-            <ul className="list-none pl-0 pt-4">
+            <ul className="list-none pl-0">
               <li
                 className="text-xl font-bold flex items-center pl-8"
                 style={{

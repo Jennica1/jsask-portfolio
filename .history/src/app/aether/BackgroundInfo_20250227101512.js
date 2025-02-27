@@ -53,7 +53,7 @@ export default function BackgroundInfo() {
               or incorrect forms, reducing stress.
             </p>
 
-            <ul className="list-none pl-0 pt-4">
+            <ul className="list-none pl-0">
               <li
                 className="text-xl font-bold flex items-center pl-8"
                 style={{
@@ -72,7 +72,7 @@ export default function BackgroundInfo() {
               overwhelming users with too much information.
             </p>
 
-            <ul className="list-none pl-0 pt-4">
+            <ul className="list-none pl-0">
               <li
                 className="text-xl font-bold flex items-center pl-8"
                 style={{
@@ -91,7 +91,7 @@ export default function BackgroundInfo() {
               likely answers based on their previous submissions.
             </p>
 
-            <ul className="list-none pl-0 pt-4">
+            <ul className="list-none pl-0">
               <li
                 className="text-xl font-bold flex items-center pl-8"
                 style={{

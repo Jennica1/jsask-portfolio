@@ -21,7 +21,7 @@ export default function CoreValues() {
     <section className="mt-44 max-w-5xl ">
        <h2 className="md:mt-3 text-3xl font-bold">Core Features:</h2>
        <hr className="border-black border-2 lg:w-[70%] "></hr>
-      <div className="flex items-center lg:pt-32 pt-4 w-full">
+      <div className="flex items-center pt-32 md:pt-6w-full">
         <div className="flex gap-6 max-w-2xl">
           {/* Left Box */}
           <div className="w-[8px] bg-[#AC0022] md:h-74 sm:h-auto flex-shrink-0"></div>
