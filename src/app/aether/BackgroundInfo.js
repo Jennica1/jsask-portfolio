@@ -39,7 +39,7 @@ export default function BackgroundInfo() {
                 </li>
               </ul>
               <p className="max-w-xl pb-4">
-                Action: Create an interface with simplified language and tooltips to explain complex legal or medical terminology. Add an error-checking feature to prevent users from submitting incomplete or incorrect forms, reducing stress.
+                Create an interface with simplified language and tooltips to explain complex legal or medical terminology. Add an error-checking feature to prevent users from submitting incomplete or incorrect forms, reducing stress.
               </p>
             </div>
 
@@ -57,7 +57,7 @@ export default function BackgroundInfo() {
                 </li>
               </ul>
               <p className="max-w-xl pb-4">
-                Action: Ensure features like form status and reminders are
+                Ensure features like form status and reminders are
                 easily accessible from the home screen. Use a design that avoids
                 overwhelming users with too much information.
               </p>
@@ -77,7 +77,7 @@ export default function BackgroundInfo() {
               </li>
               </ul>
               <p className="max-w-xl pb-4">
-                Action: Add autofill functionality that remembers frequently
+                Add autofill functionality that remembers frequently
                 used information. Introduce smart suggestions that prompt users
                 with likely answers based on their previous submissions.
               </p>
@@ -95,7 +95,7 @@ export default function BackgroundInfo() {
                   }}>AI - Form Assistance</li>
               </ul>
               <p className="max-w-xl pb-4">
-                Action: Implement an AI that will help users who are unsure of
+                Implement an AI that will help users who are unsure of
                 how to fill out a form. Allow users to ask questions and have
                 feedback on questions they are unsure about to ensure the form
                 is filled out correctly.

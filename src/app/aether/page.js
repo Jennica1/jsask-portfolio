@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import AppInformation from "./AppInformation";
 import CoreValues from "./CoreValues";
 import Slideshow from "../components/Slideshow/Slideshow";
+import Link from "next/link";
 import BackgroundInfo from "./BackgroundInfo";
 
 import {
@@ -269,7 +270,7 @@ export default function Aether() {
         </section>
 
         <section className="mt-20">
-          <h2 className="md:mt-3 text-xl font-bold pb-2">Branding:</h2>
+          <h2 className="md:mt-3 text-xl font-bold pb-2">Style Guide:</h2>
           <div className="flex flex-col md:flex-row gap-8 md:gap-28">
             <div>
               <Image
@@ -312,8 +313,43 @@ export default function Aether() {
         <CoreValues />
 
         <section className="mt-44 ">
-        <h2 className="md:mt-3 text-3xl font-bold">Marketing Materials:</h2>
-        <hr className="border-black border-2 lg:w-[70%] "></hr>
+          <h2 className="md:mt-3 text-3xl font-bold">Marketing Materials:</h2>
+          <hr className="border-black border-2 lg:w-[70%] "></hr>
+
+          <div className="flex">
+            <Link
+              href="https://aether-landing-page.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="md:mt-3 text-xl   pb-2 bg-[#890620] rounded-xl text-xs w-fit px-4 py-2 text-base text-[#F9F3ED] underline "
+            >
+              Aether's Landing Page
+            </Link>
+          </div>
+          <h2 className="md:mt-3 text-xl font-bold pb-2">Promotion Video:</h2>
+          <div className="flex flex-col md:flex-row gap-8 md:gap-28">
+            <video
+              controls
+              preload="none"
+              loop
+              muted
+              playsInline
+              className="mx-auto w-full max-w-full"
+            >
+              <source src="/aether/Aether Final Ad.mp4" />
+            </video>
+          </div>
+
+          <div>
+            <h2 className=" text-xl font-bold pb-2 pt-8">Aether Business Card:</h2>
+            <Image
+              src="/aether/Aether Business Card.png"
+              width={0}
+              height={0}
+              alt="business card of Jennica"
+              className="w-full h-auto"
+            />
+          </div>
         </section>
       </main>
     </div>

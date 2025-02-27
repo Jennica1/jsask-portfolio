@@ -14,6 +14,7 @@ export default function ACG() {
             controls
             preload="none"
             loop
+            muted
 
             className="mx-auto w-full max-w-full"
           >
@@ -124,7 +125,7 @@ export default function ACG() {
           <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             <div className="w-full">
               <label className="block text-lg font-semibold mb-3">
-                Tutorial Video:
+                Lofi Tutorial Video:
               </label>
               <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
               <video
@@ -136,7 +137,7 @@ export default function ACG() {
             playsInline
             className="mx-auto w-full max-w-full"
           >
-            <source src="/ACG/LoFi - Tutorial.mp4" />
+            <source src="/ACG/LoFi - Tutorial Muted.mp4" />
           </video>
               </div>
             </div>
