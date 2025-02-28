@@ -82,7 +82,8 @@ export default function Aether() {
             <h2 className="md:mt-3 text-3xl font-bold">Key User Personas:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
             <p className="pt-2 pb-2">
-              Based on survey results as well as online research two main user personas were created:
+              Based on survey results as well as online research two main user
+              personas were created:
             </p>
 
             <ul className="list-disc ml-12 pb-4">
@@ -91,27 +92,27 @@ export default function Aether() {
             </ul>
 
             {/* Images visible on medium and larger screens */}
-            <div className="hidden md:flex max-w-8xl gap-5">
+            <div className="flex max-w-4xl gap-5">
               <Image
                 src="/aether/User Persona.webp"
-                width={500}
-                height={700}
+                width={0}
+                height={0}
                 unoptimized
-                alt="User Persona 1"
-                className="flex-1 basis-0 min-w-0 w-full h-auto "
+                alt="lofi wireframe"
+                className="w-auto h-auto flex-basis-1/2"
               />
               <Image
                 src="/aether/User Persona 2.webp"
-                width={500}
-                height={700}
+                width={0}
+                height={0}
                 unoptimized
-                alt="User Persona 2"
-                className="flex-1 basis-0 min-w-0 w-full h-auto "
+                alt="lofi wireframe"
+                className="w-auto h-auto flex-basis-1/2"
               />
             </div>
-
             <p className="hidden md:flex text-xs pt-2">
-              By narrowing down Aether’s user personas, the ability to fine-tune the needs of caregivers is much easier now.
+              By narrowing down Aether’s user personas, the ability to fine-tune
+              the needs of caregivers is much easier now.{" "}
             </p>
 
             {/* Slideshow visible on medium and smaller screens */}
@@ -124,13 +125,12 @@ export default function Aether() {
                 height="h-auto"
                 width="w-100"
               />
-              <p className="block md:hidden text-xs pt-2">
-                By narrowing down Aether’s user personas, the ability to fine-tune the needs of caregivers is much easier now.
+              <p className=" block md:hidden text-xs pt-2">
+                By narrowing down Aether’s user personas, the ability to
+                fine-tune the needs of caregivers is much easier now.{" "}
               </p>
             </div>
           </div>
-
-
 
           <section className="mt-20">
             <div className="flex flex-col">

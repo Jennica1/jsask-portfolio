@@ -91,7 +91,7 @@ export default function Aether() {
             </ul>
 
             {/* Images visible on medium and larger screens */}
-            <div className="hidden md:flex max-w-8xl gap-5">
+            <div className="hidden md:flex max-w-6xl gap-5">
               <Image
                 src="/aether/User Persona.webp"
                 width={500}

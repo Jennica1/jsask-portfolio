@@ -78,58 +78,56 @@ export default function Aether() {
         <BackgroundInfo />
 
         <section className="mt-44">
-          <div>
-            <h2 className="md:mt-3 text-3xl font-bold">Key User Personas:</h2>
-            <hr className="border-black border-2 lg:w-[70%] "></hr>
-            <p className="pt-2 pb-2">
-              Based on survey results as well as online research two main user personas were created:
-            </p>
+        <div>
+  <h2 className="md:mt-3 text-3xl font-bold">Key User Personas:</h2>
+  <hr className="border-black border-2 lg:w-[70%] "></hr>
+  <p className="pt-2 pb-2">
+    Based on survey results as well as online research two main user personas were created:
+  </p>
 
-            <ul className="list-disc ml-12 pb-4">
-              <li>Sarah Jones works as a full-time caregiver.</li>
-              <li>Ken Lee works full-time and cares for his mother.</li>
-            </ul>
+  <ul className="list-disc ml-12 pb-4">
+    <li>Sarah Jones works as a full-time caregiver.</li>
+    <li>Ken Lee works full-time and cares for his mother.</li>
+  </ul>
 
-            {/* Images visible on medium and larger screens */}
-            <div className="hidden md:flex max-w-8xl gap-5">
-              <Image
-                src="/aether/User Persona.webp"
-                width={500}
-                height={700}
-                unoptimized
-                alt="User Persona 1"
-                className="flex-1 basis-0 min-w-0 w-full h-auto "
-              />
-              <Image
-                src="/aether/User Persona 2.webp"
-                width={500}
-                height={700}
-                unoptimized
-                alt="User Persona 2"
-                className="flex-1 basis-0 min-w-0 w-full h-auto "
-              />
-            </div>
+  {/* Images visible on medium and larger screens */}
+  <div className="hidden md:flex max-w-3xl gap-5 justify-between">
+    <Image
+      src="/aether/User Persona.webp"
+      width={500}
+      height={700}
+      unoptimized
+      alt="lofi wireframe"
+      className="w-full h-auto flex-grow min-w-[50%]"
+    />
+    <Image
+      src="/aether/User Persona 2.webp"
+      width={500}
+      height={700}
+      unoptimized
+      alt="lofi wireframe"
+      className="w-full h-auto flex-grow min-w-[50%]"
+    />
+  </div>
+  <p className="hidden md:flex text-xs pt-2">
+    By narrowing down Aether’s user personas, the ability to fine-tune the needs of caregivers is much easier now.
+  </p>
 
-            <p className="hidden md:flex text-xs pt-2">
-              By narrowing down Aether’s user personas, the ability to fine-tune the needs of caregivers is much easier now.
-            </p>
-
-            {/* Slideshow visible on medium and smaller screens */}
-            <div className="block md:hidden">
-              <Slideshow
-                slides={[
-                  { image: "./aether/User Persona.webp", alt: "Slide 1" },
-                  { image: "./aether/User Persona 2.webp", alt: "Slide 2" },
-                ]}
-                height="h-auto"
-                width="w-100"
-              />
-              <p className="block md:hidden text-xs pt-2">
-                By narrowing down Aether’s user personas, the ability to fine-tune the needs of caregivers is much easier now.
-              </p>
-            </div>
-          </div>
-
+  {/* Slideshow visible on medium and smaller screens */}
+  <div className="block md:hidden">
+    <Slideshow
+      slides={[
+        { image: "./aether/User Persona.webp", alt: "Slide 1" },
+        { image: "./aether/User Persona 2.webp", alt: "Slide 2" },
+      ]}
+      height="h-auto"
+      width="w-100"
+    />
+    <p className="block md:hidden text-xs pt-2">
+      By narrowing down Aether’s user personas, the ability to fine-tune the needs of caregivers is much easier now.
+    </p>
+  </div>
+</div>
 
 
           <section className="mt-20">

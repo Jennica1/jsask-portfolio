@@ -91,14 +91,14 @@ export default function Aether() {
             </ul>
 
             {/* Images visible on medium and larger screens */}
-            <div className="hidden md:flex max-w-8xl gap-5">
+            <div className="hidden md:flex max-w-6xl ">
               <Image
                 src="/aether/User Persona.webp"
                 width={500}
                 height={700}
                 unoptimized
                 alt="User Persona 1"
-                className="flex-1 basis-0 min-w-0 w-full h-auto "
+                className="flex-1 basis-0 min-w-0 w-full h-auto object-cover"
               />
               <Image
                 src="/aether/User Persona 2.webp"
@@ -106,7 +106,7 @@ export default function Aether() {
                 height={700}
                 unoptimized
                 alt="User Persona 2"
-                className="flex-1 basis-0 min-w-0 w-full h-auto "
+                className="flex-1 basis-0 min-w-0 w-full h-auto object-cover"
               />
             </div>
 
