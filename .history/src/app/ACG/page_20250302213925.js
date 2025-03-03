@@ -122,8 +122,9 @@ export default function ACG() {
 
           <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             <div className="w-full">
-            <h2 className="md:mt-3 text-3xl font-bold">Lofi Tutorial Video:</h2>
-            <hr className="border-black border-2 lg:w-[70%] "></hr>
+              <label className="block text-lg font-semibold mb-3">
+                Lofi Tutorial Video:
+              </label>
               <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
                 <video
                   autoPlay

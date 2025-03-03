@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function AppInformation({
   appName,
   appLink,
-  linkName,
   role,
   skills,
   description,
@@ -21,6 +20,14 @@ export default function AppInformation({
             {/* space-x-4 adds horizontal spacing between the links */}
             <h2 className="text-4xl font-bold mr-2">{appName}</h2>
             {/* Links */}
+            <Link
+              href="https://www.figma.com/proto/cONVb0kTlMWcbc6h87uAMQ/Aether-Prototype-(Copy)?page-id=2750%3A6683&node-id=2751-16880&p=f&viewport=410%2C424%2C0.03&t=0LSxHP6hTHazRigC-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2750%3A7345&show-proto-sidebar=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#890620] rounded-xl text-xs w-fit px-3 py-1.5 text-base text-[#F9F3ED] underline hover:opacity-80"
+            >
+              Prototype
+            </Link>
             <Link
               href={appLink}
               target="_blank"
@@ -39,12 +46,21 @@ export default function AppInformation({
             {/* Links */}
             <div className="flex gap-2 pt-2 pb-2">
               <Link
-                href={appLink}
+                href="https://www.figma.com/proto/cONVb0kTlMWcbc6h87uAMQ/Aether-Prototype-(Copy)?page-id=2750%3A6683&node-id=2751-16880&p=f&viewport=410%2C424%2C0.03&t=0LSxHP6hTHazRigC-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2750%3A7345&show-proto-sidebar=1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#890620] rounded-xl text-xs w-fit px-3 py-1.5 text-base text-[#F9F3ED] underline hover:opacity-80"
+                className="bg-[#890620] rounded-xl text-xs w-fit px-3 py-1.5 text-base text-[#F9F3ED] underline "
               >
-                {linkName}
+                Prototype
+              </Link>
+
+              <Link
+                href="https://aether-landing-page.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#890620] rounded-xl text-xs w-fit px-3 py-1.5 text-base text-[#F9F3ED] underline "
+              >
+                Landing Page
               </Link>
             </div>
           </span>
@@ -59,7 +75,7 @@ export default function AppInformation({
         </div>
 
         {/* Right Section */}
-        <div className="w-auto ml-6">
+        <div className="w-auto">
           <h2 className="mt-6 md:mt-2 text-xl font-bold md:text-lg">
             Project Details:
           </h2>

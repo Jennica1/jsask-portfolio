@@ -145,7 +145,7 @@ export default function pocketPals() {
           <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Graphic Assets:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
-            <div className="hidden md:flex max-w-8xl gap-5 pt-4 items-start">
+            <div className="hidden md:flex max-w-8xl gap-5 pt-4">
               <Image
                 src="/pocketPals/Animal Icons.webp"
                 unoptimized
@@ -159,7 +159,7 @@ export default function pocketPals() {
                 unoptimized
                 width={500}
                 height={700}
-                 className="flex-1 basis-0 min-w-0 w-full max-w-md h-auto aspect-[50%] object-contain"
+                 className="flex-1 basis-0 min-w-0 w-full max-w-lg h-auto aspect-[50%] object-contain"
                 alt="colours chosen and font choices"
               />
             </div>
@@ -186,7 +186,7 @@ export default function pocketPals() {
           <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Rough Drafts:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
-            <div className="hidden md:flex max-w-8xl pt-4 gap-8 items-start">
+            <div className="hidden md:flex max-w-8xl pt-4 gap-8">
               <Image
                 src="/pocketPals/LoFi - Rough Sketch.png"
                 unoptimized

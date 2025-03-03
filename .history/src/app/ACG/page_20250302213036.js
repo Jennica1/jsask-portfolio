@@ -15,6 +15,7 @@ export default function ACG() {
             preload="none"
             loop
             muted
+
             className="mx-auto w-full max-w-full"
           >
             <source src="/ACG/acgpromo.mp4" />
@@ -33,7 +34,7 @@ export default function ACG() {
           <section className="flex flex-row justify-center gap-6 w-full max-w-6xl mx-auto pt-5">
             <div className="flex-1 max-w-fit">
               <h2 className="md:mt-3 text-xl font-bold">Background:</h2>
-              <p className="max-w-2xl">
+              <p className="max-w-2.8xl">
                 In ACG: Aspect of Elements, you must carefully strategize in
                 turn-based battles to win. Players have the option to customize
                 their deck with different elements such as: fire, water, earth,
@@ -47,39 +48,40 @@ export default function ACG() {
           <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             {/* Images for larger screens */}
             <div className="w-full">
-            <h2 className="md:mt-3 text-3xl font-bold">Card Illustrations:</h2>
-            <hr className="border-black border-2 lg:w-[70%] "></hr>
-              <div className="flex flex-col md:flex-row max-w-8xl gap-5 pt-4 items-start">
+              <label className="block text-lg font-semibold mb-3">
+                Card Illustrations:
+              </label>
+              <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 md:flex-row">
                 <Image
                   src="/ACG/Goblin.webp"
                   unoptimized
-                  width={500}
-                  height={700}
-                  className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
+                  width={0}
+                  height={0}
+                  className="w-full h-auto "
                   alt="HiFi - Home Page"
                 />
                 <Image
                   src="/ACG/Helpful Witch.webp"
                   unoptimized
-                  width={500}
-                  height={700}
-                  className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
+                  width={0}
+                  height={0}
+                  className="w-[103%] h-auto "
                   alt="HiFi - Marmot Article"
                 />
                 <Image
                   src="/ACG/Jolly Elf.webp"
                   unoptimized
-                  width={500}
-                  height={700}
-                  className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
+                  width={0}
+                  height={0}
+                  className="w-[103%] h-auto "
                   alt="HiFi - Choose Your Topic"
                 />
                 <Image
                   src="/ACG/Scary Goth.webp"
                   unoptimized
-                  width={500}
-                  height={700}
-                  className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
+                  width={0}
+                  height={0}
+                  className="w-[103%] h-auto "
                   alt="HiFi - Choose Your Topic"
                 />
               </div>
@@ -88,8 +90,9 @@ export default function ACG() {
 
           <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             <div className="w-full">
-            <h2 className="md:mt-3 text-3xl font-bold">Background Illustrations:</h2>
-            <hr className="border-black border-2 lg:w-[70%] "></hr>
+              <label className="block text-lg font-semibold mb-3">
+                Background Illustrations:
+              </label>
               <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
                 <Image
                   src="/ACG/Background.webp"
@@ -122,23 +125,25 @@ export default function ACG() {
 
           <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             <div className="w-full">
-            <h2 className="md:mt-3 text-3xl font-bold">Lofi Tutorial Video:</h2>
-            <hr className="border-black border-2 lg:w-[70%] "></hr>
+              <label className="block text-lg font-semibold mb-3">
+                Lofi Tutorial Video:
+              </label>
               <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
-                <video
-                  autoPlay
-                  controls
-                  preload="none"
-                  loop
-                  muted
-                  playsInline
-                  className="mx-auto w-full max-w-full"
-                >
-                  <source src="/ACG/LoFi - Tutorial Muted.mp4" />
-                </video>
+              <video
+            autoPlay
+            controls
+            preload="none"
+            loop
+            muted
+            playsInline
+            className="mx-auto w-full max-w-full"
+          >
+            <source src="/ACG/LoFi - Tutorial Muted.mp4" />
+          </video>
               </div>
             </div>
           </section>
+
         </main>
       </div>
     </>

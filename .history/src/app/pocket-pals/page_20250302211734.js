@@ -186,7 +186,7 @@ export default function pocketPals() {
           <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Rough Drafts:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
-            <div className="hidden md:flex max-w-8xl pt-4 gap-8 items-start">
+            <div className="hidden md:flex max-w-8xl pt-4 gap-8">
               <Image
                 src="/pocketPals/LoFi - Rough Sketch.png"
                 unoptimized

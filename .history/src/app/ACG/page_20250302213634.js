@@ -47,9 +47,10 @@ export default function ACG() {
           <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             {/* Images for larger screens */}
             <div className="w-full">
-            <h2 className="md:mt-3 text-3xl font-bold">Card Illustrations:</h2>
-            <hr className="border-black border-2 lg:w-[70%] "></hr>
-              <div className="flex flex-col md:flex-row max-w-8xl gap-5 pt-4 items-start">
+              <label className="block text-lg font-semibold mb-3">
+                Card Illustrations:
+              </label>
+              <div className="flex flex-row max-w-8xl gap-5 pt-4 items-start">
                 <Image
                   src="/ACG/Goblin.webp"
                   unoptimized
@@ -88,8 +89,9 @@ export default function ACG() {
 
           <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             <div className="w-full">
-            <h2 className="md:mt-3 text-3xl font-bold">Background Illustrations:</h2>
-            <hr className="border-black border-2 lg:w-[70%] "></hr>
+              <label className="block text-lg font-semibold mb-3">
+                Background Illustrations:
+              </label>
               <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
                 <Image
                   src="/ACG/Background.webp"
@@ -122,8 +124,9 @@ export default function ACG() {
 
           <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             <div className="w-full">
-            <h2 className="md:mt-3 text-3xl font-bold">Lofi Tutorial Video:</h2>
-            <hr className="border-black border-2 lg:w-[70%] "></hr>
+              <label className="block text-lg font-semibold mb-3">
+                Lofi Tutorial Video:
+              </label>
               <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
                 <video
                   autoPlay

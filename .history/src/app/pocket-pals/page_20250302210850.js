@@ -145,13 +145,13 @@ export default function pocketPals() {
           <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Graphic Assets:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
-            <div className="hidden md:flex max-w-8xl gap-5 pt-4 items-start">
+            <div className="hidden md:flex max-w-8xl gap-5 pt-4">
               <Image
                 src="/pocketPals/Animal Icons.webp"
                 unoptimized
                 width={500}
                 height={700}
-               className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[50%] object-contain"
+                className="flex-1 basis-0 min-w-0 w-full h-auto "
                 alt="buttons that lead to different animals"
               />
               <Image
@@ -159,7 +159,7 @@ export default function pocketPals() {
                 unoptimized
                 width={500}
                 height={700}
-                 className="flex-1 basis-0 min-w-0 w-full max-w-md h-auto aspect-[50%] object-contain"
+                className="flex-1 basis-0 min-w-0 w-full h-auto  "
                 alt="colours chosen and font choices"
               />
             </div>
@@ -182,44 +182,45 @@ export default function pocketPals() {
         </section>
 
         <section className="relative flex flex-col md:flex-row items-start mb-10">
-          {/* Images for larger screens */}
-          <div className="w-full">
-            <h2 className="md:mt-3 text-3xl font-bold">Rough Drafts:</h2>
-            <hr className="border-black border-2 lg:w-[70%] "></hr>
-            <div className="hidden md:flex max-w-8xl pt-4 gap-8 items-start">
-              <Image
-                src="/pocketPals/LoFi - Rough Sketch.png"
-                unoptimized
-                width={500}
-                height={700}
-                className="flex-1 basis-0 max-w-lg h-auto aspect-[50%] object-contain"
-                alt="rough layout idea for app"
-              />
-              <Image
-                src="/pocketPals/LoFi - Site Map.png"
-                unoptimized
-                width={500}
-                height={700}
-                className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[50%] object-contain"
-                alt="map laying out app navigation"
-              />
-            </div>
-          </div>
-          {/* Slideshow for smaller screens */}
-          <div className="flex md:hidden w-full flex-col items-center gap-8 pt-4">
-            <Slideshow
-              slides={[
-                {
-                  image: "./pocketPals/LoFi - Rough Sketch.png",
-                  alt: "Slide 1",
-                },
-                { image: "./pocketPals/LoFi - Site Map.png", alt: "Slide 2" },
-              ]}
-              height="h-auto"
-              width="lg:w-[40%] md:w-1/3 "
-            />
-          </div>
-        </section>
+  {/* Images for larger screens */}
+  <div className="w-full">
+    <h2 className="md:mt-3 text-3xl font-bold">Rough Drafts:</h2>
+    <hr className="border-black border-2 lg:w-[70%] "></hr>
+    <div className="hidden md:flex max-w-8xl gap-5 pt-4">
+      <Image
+        src="/pocketPals/LoFi - Rough Sketch.png"
+        unoptimized
+        width={500}
+        height={700}
+        className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
+        alt="rough layout idea for app"
+      />
+      <Image
+        src="/pocketPals/LoFi - Site Map.png"
+        unoptimized
+        width={500}
+        height={700}
+        className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
+        alt="map laying out app navigation"
+      />
+    </div>
+  </div>
+  {/* Slideshow for smaller screens */}
+  <div className="flex md:hidden w-full flex-col items-center gap-8 pt-4">
+    <Slideshow
+      slides={[
+        {
+          image: "./pocketPals/LoFi - Rough Sketch.png",
+          alt: "Slide 1",
+        },
+        { image: "./pocketPals/LoFi - Site Map.png", alt: "Slide 2" },
+      ]}
+      height="h-auto"
+      width="lg:w-[40%] md:w-1/3 "
+    />
+  </div>
+</section>
+
       </main>
     </div>
   );

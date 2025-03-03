@@ -15,7 +15,7 @@ export default function AppInformation({ appName, appLink, linkName, role, skill
               href={appLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#890620] rounded-xl text-xs w-fit px-3 py-1.5 text-base text-[#F9F3ED] underline hover:opacity-80"
+              className="bg-[#890620]  rounded-xl w-fit px-3 py-1.5 text-base text-[#F9F3ED] underline md:text-sm"
             >
               {linkName}
             </Link>
