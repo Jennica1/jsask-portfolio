@@ -16,19 +16,21 @@ export default function AppInformation({
       <div className="flex flex-col md:flex-row justify-center w-full max-w-4xl items-start md:items-end space-y-6 md:space-y-0">
         {/* Left Section */}
         <div className="text-sm lg:pt-10 md:text-xs max-w-fit">
-          <span className="hidden md:flex inline-flex items-baseline pb-1">
+        <span className=" items-baseline flex-col">
             {" "}
             {/* space-x-4 adds horizontal spacing between the links */}
-            <h2 className="text-4xl font-bold mr-2">{appName}</h2>
+            <h2 className="text-4xl font-bold pt-4">{appName}</h2>
             {/* Links */}
-            <Link
-              href={appLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#890620] rounded-xl text-xs w-fit px-3 py-1.5 text-base text-[#F9F3ED] underline hover:opacity-80"
-            >
-              {linkName}
-            </Link>
+            <div className="flex gap-2 pt-2 pb-2">
+              <Link
+                href={appLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#890620] rounded-xl text-xs w-fit px-3 py-1.5 text-base text-[#F9F3ED] underline hover:opacity-80"
+              >
+                {linkName}
+              </Link>
+            </div>
           </span>
 
           {/* FOr small screen */}
@@ -53,7 +55,7 @@ export default function AppInformation({
             {status}
           </p>
 
-          <p className="mt-4 md:mt-1 text-base md:text-sm max-w-sm">
+          <p className="mt-4 md:mt-1 text-base md:text-sm max-w-xs">
             {description}
           </p>
         </div>

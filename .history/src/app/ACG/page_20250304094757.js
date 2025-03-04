@@ -30,7 +30,7 @@ export default function ACG() {
             status="Illustration"
           />
 
-          <section className="flex flex-row justify-center max-w-6xl mx-auto pt-5">
+          <section className="flex flex-row justify-center max-w-6xl  pt-5">
             <div className="flex-1 max-w-fit">
               <h2 className="md:mt-3 text-xl font-bold">Background:</h2>
               <p className="max-w-2xl">
@@ -44,7 +44,7 @@ export default function ACG() {
             </div>
           </section>
 
-          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-44">
+          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             {/* Images for larger screens */}
             <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Card Illustrations:</h2>
@@ -120,7 +120,7 @@ export default function ACG() {
             </div>
           </section>
 
-          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-44">
+          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Lofi Tutorial Video:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>

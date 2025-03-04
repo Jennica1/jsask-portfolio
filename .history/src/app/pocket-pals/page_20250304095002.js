@@ -31,7 +31,7 @@ export default function pocketPals() {
 
         <Information className="" />
 
-        <section className="relative flex flex-col md:flex-row items-start mb-10 mt-44">
+        <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
           {/* Images for larger screens */}
           <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Hifi Screens:</h2>
@@ -140,7 +140,7 @@ export default function pocketPals() {
           </div>
         </section>
 
-        <section className="relative flex flex-col md:flex-row items-start mb-10 mt-44">
+        <section className="relative flex flex-col md:flex-row items-start mb-10">
           {/* Images for larger screens */}
           <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Graphic Assets:</h2>
@@ -181,7 +181,7 @@ export default function pocketPals() {
           </div>
         </section>
 
-        <section className="relative flex flex-col md:flex-row items-start mb-10 mt-44">
+        <section className="relative flex flex-col md:flex-row items-start mb-10">
           {/* Images for larger screens */}
           <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Rough Drafts:</h2>

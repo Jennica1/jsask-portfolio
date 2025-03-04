@@ -30,7 +30,7 @@ export default function ACG() {
             status="Illustration"
           />
 
-          <section className="flex flex-row justify-center max-w-6xl mx-auto pt-5">
+          <section className="flex flex-row justify-center gap-6 w-full max-w-6xl mx-auto pt-5">
             <div className="flex-1 max-w-fit">
               <h2 className="md:mt-3 text-xl font-bold">Background:</h2>
               <p className="max-w-2xl">
@@ -90,7 +90,7 @@ export default function ACG() {
             <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Background Illustrations:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
-              <div className="flex flex-col gap-2  mt-4  ">
+              <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
                 <Image
                   src="/ACG/Background.webp"
                   unoptimized
@@ -120,11 +120,11 @@ export default function ACG() {
             </div>
           </section>
 
-          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-44">
+          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
             <div className="w-full">
             <h2 className="md:mt-3 text-3xl font-bold">Lofi Tutorial Video:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
-              <div className="flex flex-col gap-8  mt-4  ">
+              <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
                 <video
                   autoPlay
                   controls

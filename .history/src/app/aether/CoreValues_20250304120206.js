@@ -35,7 +35,7 @@ export default function CoreValues() {
                 className={`text-left transition-colors duration-300 ${
                   selectedFeature === feature.name
                     ? "text-[#AC0022]"
-                    : "text-black opacity-30"
+                    : "text-black opacity-50"
                 }`}
               >
                 <h2 className="text-4xl font-bold">{feature.name}</h2>

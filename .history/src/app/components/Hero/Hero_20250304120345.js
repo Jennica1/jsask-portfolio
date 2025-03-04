@@ -3,15 +3,14 @@ import React from "react";
 export default function Hero() {
   return (
     <>
- <div id="about" className="flex flex-col items-center px-4 pt-48 py-3 space-y-2 ">
-  <h1 className="text-7xl font-bold text-center">Jennica Sask</h1>
-  <p className="text-md md:text-md text-center max-w-[60ch] mx-auto mb-8">
-    I’m a junior web designer who is looking to gain experience in the web
-    development industry. I’m passionate about combining aesthetics with
-    accessible and intuitive design.
-  </p>
-</div>
-
+      <div id="about" className="flex flex-col items-center px-4 pt-48 py-3 space-y-2 ">
+        <h1 className="text-8xl font-bold">Jennica Sask</h1>
+        <p className="text-md md:text-md max-w-xl mb-8 text-center">
+          I’m a junior web designer who is looking to gain experience in the web
+          development industry. I’m passionate about combining aesthetics with
+          accessible and intuitive design.
+        </p>
+      </div>
 
       <div className="flex gap-4 pb-20 pt-10">
         <a

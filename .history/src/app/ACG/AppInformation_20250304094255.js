@@ -16,7 +16,7 @@ export default function AppInformation({
       <div className="flex flex-col md:flex-row justify-center w-full max-w-4xl items-start md:items-end space-y-6 md:space-y-0">
         {/* Left Section */}
         <div className="text-sm lg:pt-10 md:text-xs max-w-fit">
-          <span className="hidden md:flex inline-flex items-baseline pb-1">
+          <span className="hidden md:flex inline-flex items-baseline pb-1 space-x-2">
             {" "}
             {/* space-x-4 adds horizontal spacing between the links */}
             <h2 className="text-4xl font-bold mr-2">{appName}</h2>
@@ -59,7 +59,7 @@ export default function AppInformation({
         </div>
 
         {/* Right Section */}
-        <div className="w-auto lg:ml-2">
+        <div className="w-auto ml-2">
           <h2 className="mt-6 md:mt-2 text-xl font-bold md:text-lg">
             Project Details:
           </h2>

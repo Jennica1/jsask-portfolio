@@ -16,7 +16,7 @@ export default function AppInformation({
       <div className="flex flex-col md:flex-row justify-center w-full max-w-4xl items-start md:items-end space-y-6 md:space-y-0">
         {/* Left Section */}
         <div className="text-sm lg:pt-10 md:text-xs max-w-fit">
-          <span className="hidden md:flex inline-flex items-baseline pb-1">
+          <span className="hidden md:flex inline-flex items-baseline">
             {" "}
             {/* space-x-4 adds horizontal spacing between the links */}
             <h2 className="text-4xl font-bold mr-2">{appName}</h2>
