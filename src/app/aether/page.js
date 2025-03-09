@@ -82,7 +82,8 @@ export default function Aether() {
             <h2 className="md:mt-3 text-3xl font-bold">Key User Personas:</h2>
             <hr className="border-black border-2 lg:w-[70%] "></hr>
             <p className="pt-2 pb-2">
-              Based on survey results as well as online research two main user personas were created:
+              Based on survey results as well as online research two main user
+              personas were created:
             </p>
 
             <ul className="lg:list-disc lg:text-base lg:ml-12 lg:pb-4 text-xs ">
@@ -111,7 +112,8 @@ export default function Aether() {
             </div>
 
             <p className="hidden md:flex text-xs pt-2">
-              By narrowing down Aether’s user personas, the ability to fine-tune the needs of caregivers is much easier now.
+              By narrowing down Aether’s user personas, the ability to fine-tune
+              the needs of caregivers is much easier now.
             </p>
 
             {/* Slideshow visible on medium and smaller screens */}
@@ -125,12 +127,11 @@ export default function Aether() {
                 width="w-100"
               />
               <p className="block md:hidden text-xs pt-2">
-                By narrowing down Aether’s user personas, the ability to fine-tune the needs of caregivers is much easier now.
+                By narrowing down Aether’s user personas, the ability to
+                fine-tune the needs of caregivers is much easier now.
               </p>
             </div>
           </div>
-
-
 
           <section className="mt-20">
             <div className="flex flex-col">
@@ -354,7 +355,9 @@ export default function Aether() {
           </div>
 
           <div>
-            <h2 className=" text-xl font-bold pb-2 pt-8">Aether Business Card:</h2>
+            <h2 className=" text-xl font-bold pb-2 pt-8">
+              Aether Business Card:
+            </h2>
             <Image
               src="/aether/Aether Business Card.png"
               width={0}
@@ -368,7 +371,7 @@ export default function Aether() {
           <div>
             <h2 className=" text-xl font-bold pb-2 pt-8">Brochure:</h2>
             <Image
-              src="/aether/Aether Brochure.png"
+              src="/aether/Brochure Mockup.png"
               width={0}
               height={0}
               unoptimized
