@@ -44,15 +44,29 @@ export default function Magazine() {
             status="Graphic Design"
           />
 
+          <section className="flex flex-row justify-center gap-6 w-full max-w-6xl mx-auto pt-5 pb-44">
+            <div className="flex-1 max-w-fit">
+              <h2 className="md:mt-3 text-xl font-bold">Background:</h2>
+              <p className="max-w-xl">
+               
+              </p>
+
+
+            </div>
+          </section>
 
 
 
-          <section className=" pt-44">
-          <h2 className="md:mt-3 text-3xl font-bold">Magazine:</h2>
-          <hr className="border-black border-2 lg:w-[70%] "></hr>
 
-          <div className="w-full pt-4" style={{ height: "90vh" }}>
+
+          <div className="w-full pt-44" style={{ height: "90vh" }}>
           <div className="flex-1 max-w-fit">
+              <h2 className="md:mt-3 text-xl font-bold">Background:</h2>
+              <p className="max-w-xl">
+               
+              </p>
+
+
             </div>
             <Worker workerUrl="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js">
               <Viewer
@@ -65,7 +79,6 @@ export default function Magazine() {
               />
             </Worker>
           </div>
-          </section>
 
 
 

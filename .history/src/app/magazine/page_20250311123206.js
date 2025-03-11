@@ -48,7 +48,7 @@ export default function Magazine() {
 
 
           <section className=" pt-44">
-          <h2 className="md:mt-3 text-3xl font-bold">Magazine:</h2>
+          <h2 className="md:mt-3 text-3xl font-bold">Key User Personas:</h2>
           <hr className="border-black border-2 lg:w-[70%] "></hr>
 
           <div className="w-full pt-4" style={{ height: "90vh" }}>

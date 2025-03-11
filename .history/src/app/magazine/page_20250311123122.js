@@ -47,11 +47,10 @@ export default function Magazine() {
 
 
 
-          <section className=" pt-44">
-          <h2 className="md:mt-3 text-3xl font-bold">Magazine:</h2>
+          <section className="flex flex-row justify-center gap-6 w-full max-w-6xl mx-auto pt-5 pt-44">
+          <h2 className="md:mt-3 text-3xl font-bold">Key User Personas:</h2>
           <hr className="border-black border-2 lg:w-[70%] "></hr>
-
-          <div className="w-full pt-4" style={{ height: "90vh" }}>
+          <div className="w-full " style={{ height: "90vh" }}>
           <div className="flex-1 max-w-fit">
             </div>
             <Worker workerUrl="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js">
