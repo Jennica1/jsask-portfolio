@@ -23,30 +23,26 @@ export default function FloatingShapes() {
     const world = engine.world;
     setEngine(engine);
 
-    //Disable gravity for space-like floating
+    // 🚀 Disable gravity for space-like floating
     engine.gravity.y = 0;
     engine.gravity.x = 0;
 
     const startX = window.innerWidth / 2;
     const startY = window.innerHeight / 2;
 
-    // Create floatin bodies
-    const floatingTriangle = Matter.Bodies.circle(startX, startY, 20, {
+    // Create floating triangle body
+    const floatingTriangle = Matter.Bodies.circle(startX, startY, 50, {
       restitution: 1,
       frictionAir: 0,
       density: 0.002,
     });
 
-    const floatingCircle = Matter.Bodies.circle(
-      startX + 150,
-      startY + 100,
-      50,
-      {
-        restitution: 1,
-        frictionAir: 0,
-        density: 0.002,
-      }
-    );
+    // Create floating circle body
+    const floatingCircle = Matter.Bodies.circle(startX + 150, startY + 100, 50, {
+      restitution: 1,
+      frictionAir: 0,
+      density: 0.002,
+    });
 
     const floatingStar = Matter.Bodies.circle(startX - 100, startY + 100, 50, {
       restitution: 1,
@@ -60,48 +56,20 @@ export default function FloatingShapes() {
     floatingCircleRef.current = floatingCircle;
     floatingStarRef.current = floatingStar;
 
+
     // Add invisible boundaries
     const bounds = [
-      Matter.Bodies.rectangle(
-        window.innerWidth / 2,
-        window.innerHeight,
-        window.innerWidth,
-        10,
-        { isStatic: true }
-      ),
-      Matter.Bodies.rectangle(window.innerWidth / 2, 0, window.innerWidth, 10, {
-        isStatic: true,
-      }),
-      Matter.Bodies.rectangle(
-        0,
-        window.innerHeight / 2,
-        10,
-        window.innerHeight,
-        { isStatic: true }
-      ),
-      Matter.Bodies.rectangle(
-        window.innerWidth,
-        window.innerHeight / 2,
-        10,
-        window.innerHeight,
-        { isStatic: true }
-      ),
+      Matter.Bodies.rectangle(window.innerWidth / 2, window.innerHeight, window.innerWidth, 10, { isStatic: true }),
+      Matter.Bodies.rectangle(window.innerWidth / 2, 0, window.innerWidth, 10, { isStatic: true }),
+      Matter.Bodies.rectangle(0, window.innerHeight / 2, 10, window.innerHeight, { isStatic: true }),
+      Matter.Bodies.rectangle(window.innerWidth, window.innerHeight / 2, 10, window.innerHeight, { isStatic: true }),
     ];
     Matter.World.add(world, bounds);
 
-    // Apply random pushes
-    Matter.Body.setVelocity(floatingTriangle, {
-      x: (Math.random() - 0.5) * 2,
-      y: (Math.random() - 0.5) * 2,
-    });
-    Matter.Body.setVelocity(floatingCircle, {
-      x: (Math.random() - 0.5) * 2,
-      y: (Math.random() - 0.5) * 2,
-    });
-    Matter.Body.setVelocity(floatingStar, {
-      x: (Math.random() - 0.5) * 2,
-      y: (Math.random() - 0.5) * 2,
-    });
+    // Apply random push to both shapes
+    Matter.Body.setVelocity(floatingTriangle, { x: (Math.random() - 0.5) * 2, y: (Math.random() - 0.5) * 2 });
+    Matter.Body.setVelocity(floatingCircle, { x: (Math.random() - 0.5) * 2, y: (Math.random() - 0.5) * 2 });
+    Matter.Body.setVelocity(floatingStar, { x: (Math.random() - 0.5) * 2, y: (Math.random() - 0.5) * 2 });
 
     // Run physics engine
     const runner = Matter.Runner.create();
@@ -111,21 +79,17 @@ export default function FloatingShapes() {
     const updateImagePositions = () => {
       if (triangleRef.current && floatingTriangleRef.current) {
         const { x, y } = floatingTriangleRef.current.position;
-        triangleRef.current.style.transform = `translate(${x - 50}px, ${
-          y - 50
-        }px)`;
+        triangleRef.current.style.transform = `translate(${x - 50}px, ${y - 50}px)`;
       }
       if (circleRef.current && floatingCircleRef.current) {
         const { x, y } = floatingCircleRef.current.position;
-        circleRef.current.style.transform = `translate(${x - 50}px, ${
-          y - 50
-        }px)`;
+        circleRef.current.style.transform = `translate(${x - 50}px, ${y - 50}px)`;
       }
       if (starRef.current && floatingStarRef.current) {
         const { x, y } = floatingStarRef.current.position;
         starRef.current.style.transform = `translate(${x - 50}px, ${y - 50}px)`;
       }
-
+      
       requestAnimationFrame(updateImagePositions);
     };
     updateImagePositions();
@@ -139,6 +103,7 @@ export default function FloatingShapes() {
 
   return (
     <>
+      {/* 🌟 Main Content (z-10) */}
       <main className="flex justify-center flex-col items-center opacity-0 animate-fadeIn animate-slideIn z-10 relative">
         <Header />
         <Hero className="p-5" />
@@ -146,10 +111,8 @@ export default function FloatingShapes() {
         <ContactForm />
       </main>
 
-      <div
-        ref={sceneRef}
-        className="fixed top-0 left-0 w-full h-full pointer-events-none -z-20"
-      >
+      {/* Floating Shapes */}
+      <div ref={sceneRef} className="fixed top-0 left-0 w-full h-full pointer-events-none -z-20">
         <Image
           ref={triangleRef}
           src="/images/Triangle.svg"
@@ -166,7 +129,7 @@ export default function FloatingShapes() {
           height={100}
           className="absolute select-none"
         />
-        <Image
+                <Image
           ref={starRef}
           src="/images/star.svg"
           alt="Floating Circle"
