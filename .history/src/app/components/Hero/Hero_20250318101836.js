@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <div id="about" className="flex flex-col items-center px-4 pt-48 py-3 space-y-2 ">
-        <h1 className="lg:text-6xl font-bold text-5xl text-center">Jennica Sask</h1>
+        <h1 className="lg:text-6xl font-bold text-5xl align-center">Jennica Sask</h1>
         <p className="text-md md:text-md max-w-xl mb-8 text-center">
           I’m a junior web designer who is looking to gain experience in the web
           development industry. I’m passionate about combining aesthetics with

@@ -10,6 +10,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import FloatingShapes from "./components/FloatingShapes/floatingShapes";
 
 export default function Home() {
+     
   return (
     <>
       <main className="flex justify-center flex-col items-center opacity-0 animate-fadeIn animate-slideIn z-10 relative">
@@ -18,27 +19,8 @@ export default function Home() {
         <ProjectsGrid />
         <ContactForm />
       </main>
-      <FloatingShapes />
-      <div className="">
-  <Image
-    src="/images/Warped grid.svg"
-    width={160}
-    height={40}
-    alt="barcode"
-    className="absolute top-0 right-0 lg:w-[40%] w-[90%] h-auto -z-20"
-  />
-</div>
-
-
-      <div className="relative w-full h-40">
-        <Image
-          src="/images/Barcode.svg"
-          width={160}
-          height={40}
-          alt="barcode"
-          className="absolute right-4 bottom-2 w-40 h-auto -z-20"
-        />
-      </div>
+<FloatingShapes/>
+      
     </>
   );
 }

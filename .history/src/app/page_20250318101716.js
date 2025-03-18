@@ -25,7 +25,7 @@ export default function Home() {
     width={160}
     height={40}
     alt="barcode"
-    className="absolute top-0 right-0 lg:w-[40%] w-[90%] h-auto -z-20"
+    className="absolute top-0 right-0 lg:w-[40%] w-[50%]h-auto -z-20"
   />
 </div>
 

@@ -19,16 +19,15 @@ export default function Home() {
         <ContactForm />
       </main>
       <FloatingShapes />
-      <div className="">
-  <Image
-    src="/images/Warped grid.svg"
-    width={160}
-    height={40}
-    alt="barcode"
-    className="absolute top-0 right-0 lg:w-[40%] w-[90%] h-auto -z-20"
-  />
-</div>
-
+      <div className="relative w-full h-full">
+        <Image
+          src="/images/Warped grid.svg"
+          width={160}
+          height={40}
+          alt="barcode"
+          className="absolute left-4 top-2 w-full h-auto -z-20"
+        />
+      </div>
 
       <div className="relative w-full h-40">
         <Image
