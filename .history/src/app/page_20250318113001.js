@@ -7,7 +7,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import { ProjectsGrid } from "./components/ProjectsGrid/ProjetsGrid";
 import ContactForm from "./components/ContactForm/ContactForm";
-import FloatingShapes from "./components/FloatingShapes/FloatingShapes";
+import FloatingShapes from "./components/FloatingShapes/floatingShapes";
 
 export default function Home() {
   return (
