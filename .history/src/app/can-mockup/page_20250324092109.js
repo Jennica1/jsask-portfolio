@@ -60,7 +60,7 @@ export default function canMockup() {
         <section className="mt-20 flex flex-col">
         <div className="mt-30 ">
             <Image
-              src="/canMockup/Blueberry.webp"
+              src="/canMockup/Blueberry.png"
               width={0}
               height={0}
               unoptimized
@@ -71,7 +71,7 @@ export default function canMockup() {
           
           <div className="mt-30 ">
             <Image
-              src="/canMockup/Red.webp"
+              src="/canMockup/Red.png"
               width={0}
               height={0}
               unoptimized
@@ -82,7 +82,7 @@ export default function canMockup() {
 
           <div className="mt-30 ">
             <Image
-              src="/canMockup/Orange.webp"
+              src="/canMockup/Orange.png"
               width={0}
               height={0}
               unoptimized
