@@ -22,12 +22,10 @@ export default function Home() {
       <div className="">
         <Image
           src="/images/Warped Grid.svg"
-          width={220}
-          height={80}
+          width={160}
+          height={40}
           alt="barcode"
-          className="absolute top-[60rem] right-0 lg:w-[50%] w-full h-auto -z-20"
-
-
+          className="absolute top-[96%] right-0 lg:w-[40%] h-auto -z-20"
         />
       </div>
 
@@ -37,7 +35,7 @@ export default function Home() {
           width={160}
           height={40}
           alt="barcode"
-          className="absolute left-0 top-0 w-96 h-auto -z-20"
+          className="absolute left-0 top-0 w-80 h-auto -z-20"
         />
      
 

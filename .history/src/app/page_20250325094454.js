@@ -34,10 +34,10 @@ export default function Home() {
      
         <Image
           src="/images/Grid.svg"
-          width={160}
+          width={200}
           height={40}
           alt="barcode"
-          className="absolute left-0 top-0 w-96 h-auto -z-20"
+          className="absolute left-0 top-0 w-100 h-auto -z-20"
         />
      
 

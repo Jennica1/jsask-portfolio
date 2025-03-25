@@ -1,4 +1,4 @@
-"use client"; 
+"use client"; // Required for Next.js App Router
 
 import { useEffect, useRef, useState } from "react";
 import Matter from "matter-js";
@@ -50,7 +50,7 @@ export default function FloatingShapes() {
     floatingCircleRef.current = floatingCircle;
     floatingStarRef.current = floatingStar;
 
-    // Boundaries
+    // **Stronger Boundaries to Prevent Escape**
     const bounds = [
       Matter.Bodies.rectangle(window.innerWidth / 2, window.innerHeight, window.innerWidth, 50, {
         isStatic: true,
@@ -90,7 +90,7 @@ export default function FloatingShapes() {
         if (body.position.y < yMin) Matter.Body.setPosition(body, { x: body.position.x, y: yMin });
         if (body.position.y > yMax) Matter.Body.setPosition(body, { x: body.position.x, y: yMax });
 
-        // Limiting speed
+        // **Limit Max Speed to Prevent Escape**
         const maxSpeed = 5;
         if (body.velocity.x > maxSpeed || body.velocity.x < -maxSpeed) {
           Matter.Body.setVelocity(body, { x: Math.sign(body.velocity.x) * maxSpeed, y: body.velocity.y });
@@ -159,7 +159,7 @@ export default function FloatingShapes() {
           ref={circleRef}
           src="/images/Circle.svg"
           alt="Floating Circle"
-          width={150}
+          width={100}
           height={100}
           className="absolute select-none"
         />

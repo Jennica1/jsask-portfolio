@@ -25,7 +25,7 @@ export default function Home() {
           width={220}
           height={80}
           alt="barcode"
-          className="absolute top-[60rem] right-0 lg:w-[50%] w-full h-auto -z-20"
+          className="absolute top-[100rem] right-0 lg:w-[50%] w-full h-auto -z-20"
 
 
         />
@@ -37,7 +37,7 @@ export default function Home() {
           width={160}
           height={40}
           alt="barcode"
-          className="absolute left-0 top-0 w-96 h-auto -z-20"
+          className="absolute left-0 top-0 w-80 h-auto -z-20"
         />
      
 
