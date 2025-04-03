@@ -4,14 +4,14 @@ import { useState } from "react";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
 
 const projects = [
-  // {
-  //   id: 1,
-  //   title: "Pocket Pals",
-  //   description: "A learning app for kids. Focused on educating children about endangered animals across the globe through interactive learning.",
-  //   image: "/pocketPals/Logo.png",
-  //   category: "UI/UX Design",
-  //   path: "/pocket-pals", 
-  // },
+  {
+    id: 1,
+    title: "Pocket Pals",
+    description: "A learning app for kids. Focused on educating children about endangered animals across the globe through interactive learning.",
+    image: "/pocketPals/Logo.png",
+    category: "UI/UX Design",
+    path: "/pocket-pals", 
+  },
   {
     id: 2,
     title: "Can Mock-up",
@@ -20,14 +20,14 @@ const projects = [
     category: "Graphic Design",
     path: "/can-mockup", 
   },
-  // {
-  //   id: 3,
-  //   title: "Aspect of Element",
-  //   description: "Strategy card game similar to King of the Hill but with the power of different elements.",
-  //   image: "/ACG/Logo.png",
-  //   category: "Illustration",
-  //   path: "/ACG",
-  // },
+  {
+    id: 3,
+    title: "Aspect of Element",
+    description: "Strategy card game similar to King of the Hill but with the power of different elements.",
+    image: "/ACG/Logo.png",
+    category: "Illustration",
+    path: "/ACG",
+  },
   {
     id: 4,
     title: "Aether",
@@ -36,10 +36,27 @@ const projects = [
     category: "Development",
     path: "/aether",
   },
+  {
+    id: 5,
+    title: "Ancient China",
+    description: "A magazine focused on ancient China's Architecture throughout different dynasties.",
+    image: "/magazine/Magazine Mockup.png",
+    category: "Graphic Design",
+    path: "/magazine",
+  },
+  // {
+  //   id: 6,
+  //   title: "Paper Airplane Tutorial",
+  //   description: "A how to video on making a paper airplane.",
+  //   image: "/airplane/airplane.png",
+  //   category: "Motion Graphics",
+  //   path: "/airplane",
+  // },
+  
 ];
 
 
-const categories = ["All", "UI/UX Design", "Graphic Design", "Illustration", "Development"];
+const categories = ["All", "UI/UX Design", "Graphic Design", "Illustration", "Development", ];
 
 export const ProjectsGrid = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -63,8 +80,8 @@ export const ProjectsGrid = () => {
               className={`px-4 py-2 rounded-2xl transition-all duration-300 
                 ${
                   selectedCategory === category
-                    ? "bg-[#AC0022] text-white font-bold  " // Active button
-                    : "border-2 border-[#AC0022]  text-black hover:bg-[#AC0022] hover:text-white"
+                    ? "bg-[#890620] text-white font-bold  " // Active button
+                    : "border-2 border-[#890620] text-black hover:bg-[#890620] hover:text-white"
                 }`}
             >
               {category}

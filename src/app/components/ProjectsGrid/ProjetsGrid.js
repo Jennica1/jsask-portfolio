@@ -44,19 +44,19 @@ const projects = [
     category: "Graphic Design",
     path: "/magazine",
   },
-  {
-    id: 6,
-    title: "Paper Airplane Tutorial",
-    description: "A how to video on making a paper airplane.",
-    image: "/airplane/airplane.png",
-    category: "Motion Graphics",
-    path: "/airplane",
-  },
+  // {
+  //   id: 6,
+  //   title: "Paper Airplane Tutorial",
+  //   description: "A how to video on making a paper airplane.",
+  //   image: "/airplane/airplane.png",
+  //   category: "Motion Graphics",
+  //   path: "/airplane",
+  // },
   
 ];
 
 
-const categories = ["All", "UI/UX Design", "Graphic Design", "Illustration", "Development", "Motion Graphics"];
+const categories = ["All", "UI/UX Design", "Graphic Design", "Illustration", "Development", ];
 
 export const ProjectsGrid = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
