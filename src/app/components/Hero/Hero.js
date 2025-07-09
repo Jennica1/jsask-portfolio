@@ -6,9 +6,10 @@ export default function Hero() {
       <div id="about" className="flex flex-col items-center px-4 pt-48 py-3 space-y-2 ">
         <h1 className="lg:text-6xl font-bold text-5xl text-center">Jennica Sask</h1>
         <p className="text-md md:text-md max-w-xl mb-8 text-center">
-          I’m a junior web designer who is looking to gain experience in the web
-          development industry. I’m passionate about combining aesthetics with
-          accessible and intuitive design.
+          I’m a junior digital designer and developer with a passion 
+for combining aesthetics with intuitive design. Seeking 
+hands-on experience in the digital marketing industry to 
+grow technical and strategic communication skills.
         </p>
       </div>
 

@@ -10,7 +10,7 @@ const projects = [
     description: "A learning app for kids. Focused on educating children about endangered animals across the globe through interactive learning.",
     image: "/pocketPals/Logo.png",
     category: "UI/UX Design",
-    path: "/pocket-pals", 
+    path: "/pocket-pals",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const projects = [
     description: "Mock-up designs for Breezy Bee’s Hydromel in three different flavours.",
     image: "/canMockup/Logo.png",
     category: "Graphic Design",
-    path: "/can-mockup", 
+    path: "/can-mockup",
   },
   {
     id: 3,
@@ -46,17 +46,25 @@ const projects = [
   },
   {
     id: 6,
-    title: "Paper Airplane Tutorial",
-    description: "A how to video on making a paper airplane.",
-    image: "/airplane/airplane.png",
-    category: "Motion Graphics",
-    path: "/airplane",
+    title: "SomaSync",
+    description: "",
+    image: "/",
+    category: "Development",
+    path: "/somasync",
   },
-  
+  // {
+  //   id: 6,
+  //   title: "Paper Airplane Tutorial",
+  //   description: "A how to video on making a paper airplane.",
+  //   image: "/airplane/airplane.png",
+  //   category: "Motion Graphics",
+  //   path: "/airplane",
+  // },
+
 ];
 
 
-const categories = ["All", "UI/UX Design", "Graphic Design", "Illustration", "Development", "Motion Graphics"];
+const categories = ["All", "UI/UX Design", "Graphic Design", "Illustration", "Development",];
 
 export const ProjectsGrid = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -78,10 +86,9 @@ export const ProjectsGrid = () => {
               key={category}
               onClick={() => setSelectedCategory(category)}
               className={`px-4 py-2 rounded-2xl transition-all duration-300 
-                ${
-                  selectedCategory === category
-                    ? "bg-[#890620] text-white font-bold  " // Active button
-                    : "border-2 border-[#890620] text-black hover:bg-[#890620] hover:text-white"
+                ${selectedCategory === category
+                  ? "bg-[#890620] text-white font-bold  " // Active button
+                  : "border-2 border-[#890620] text-black hover:bg-[#890620] hover:text-white"
                 }`}
             >
               {category}
@@ -92,7 +99,7 @@ export const ProjectsGrid = () => {
         {/* Projects */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} {...project} className=""/>
+            <ProjectCard key={project.id} {...project} className="" />
           ))}
         </div>
       </div>
