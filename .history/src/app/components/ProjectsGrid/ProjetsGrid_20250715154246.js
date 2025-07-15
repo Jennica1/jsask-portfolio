@@ -44,14 +44,14 @@ const projects = [
     category: "Graphic Design",
     path: "/magazine",
   },
-  // {
-  //   id: 6,
-  //   title: "SomaSync",
-  //   description: "A leadership program that provides a holistic approach to understanding ourselves and others in a workplace environment.",
-  //   image: "/somaSync/Logo.png",
-  //   category: "Development",
-  //   path: "/somasync",
-  // },
+  {
+    id: 6,
+    title: "SomaSync",
+    description: "A leadership program that provides a holistic approach to understanding ourselves and others in a workplace environment.",
+    image: "/",
+    category: "Development",
+    path: "/somasync",
+  },
     {
     id: 7,
     title: "Lysstyle",
