@@ -15,7 +15,6 @@ export default function ACG() {
             preload="none"
             loop
             muted
-
             className="mx-auto w-full max-w-full"
           >
             <source src="/ACG/acgpromo.mp4" />
@@ -23,7 +22,7 @@ export default function ACG() {
 
           <AppInformation
             appName="Aspects of Elements"
-            appLink="https://pocketpals.vercel.app/"
+            appLink="https://steamcommunity.com/sharedfiles/filedetails/?id=3247582700"
             linkName="Steam Workshop"
             role="Illustrator"
             skills={["Illustrator", "Photoshop"]}
@@ -31,7 +30,7 @@ export default function ACG() {
             status="Illustration"
           />
 
-          <section className="flex flex-row justify-center gap-6 w-full max-w-6xl mx-auto pt-5">
+          <section className="flex flex-row justify-center max-w-6xl mx-auto pt-5">
             <div className="flex-1 max-w-fit">
               <h2 className="md:mt-3 text-xl font-bold">Background:</h2>
               <p className="max-w-2xl">
@@ -45,19 +44,18 @@ export default function ACG() {
             </div>
           </section>
 
-          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
+          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-44">
             {/* Images for larger screens */}
             <div className="w-full">
-              <label className="block text-lg font-semibold mb-3">
-                Card Illustrations:
-              </label>
-              <div className="flex flex-row">
+            <h2 className="md:mt-3 text-3xl font-bold">Card Illustrations:</h2>
+            <hr className="border-black border-2 lg:w-[70%] "></hr>
+              <div className="flex flex-col md:flex-row max-w-8xl gap-5 pt-4 items-start">
                 <Image
                   src="/ACG/Goblin.webp"
                   unoptimized
                   width={500}
-                height={700}
-                className="flex-1 basis-0 min-w-0 w-full h-auto "
+                  height={700}
+                  className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
                   alt="HiFi - Home Page"
                 />
                 <Image
@@ -65,7 +63,7 @@ export default function ACG() {
                   unoptimized
                   width={500}
                   height={700}
-                  className="flex-1 basis-0 min-w-0 w-full h-auto "
+                  className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
                   alt="HiFi - Marmot Article"
                 />
                 <Image
@@ -73,27 +71,26 @@ export default function ACG() {
                   unoptimized
                   width={500}
                   height={700}
-                  className="flex-1 basis-0 min-w-0 w-full h-auto "
+                  className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
                   alt="HiFi - Choose Your Topic"
                 />
                 <Image
                   src="/ACG/Scary Goth.webp"
                   unoptimized
-                  width={0}
-                  height={0}
-                  className="w-[103%] h-auto "
+                  width={500}
+                  height={700}
+                  className="flex-1 basis-0 min-w-0 w-full max-w-full h-auto aspect-[5/7] object-contain"
                   alt="HiFi - Choose Your Topic"
                 />
               </div>
             </div>
           </section>
 
-          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
+          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-44">
             <div className="w-full">
-              <label className="block text-lg font-semibold mb-3">
-                Background Illustrations:
-              </label>
-              <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
+            <h2 className="md:mt-3 text-3xl font-bold">Background Illustrations:</h2>
+            <hr className="border-black border-2 lg:w-[70%] "></hr>
+              <div className="flex flex-col gap-2  mt-4  ">
                 <Image
                   src="/ACG/Background.webp"
                   unoptimized
@@ -123,27 +120,25 @@ export default function ACG() {
             </div>
           </section>
 
-          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-20">
+          <section className="relative flex flex-col md:flex-row items-start mb-10 mt-44">
             <div className="w-full">
-              <label className="block text-lg font-semibold mb-3">
-                Lofi Tutorial Video:
-              </label>
-              <div className="flex flex-col gap-8 items-center mt-3 md:mr-20 md:ml-20 ">
-              <video
-            autoPlay
-            controls
-            preload="none"
-            loop
-            muted
-            playsInline
-            className="mx-auto w-full max-w-full"
-          >
-            <source src="/ACG/LoFi - Tutorial Muted.mp4" />
-          </video>
+            <h2 className="md:mt-3 text-3xl font-bold">Lofi Tutorial Video:</h2>
+            <hr className="border-black border-2 lg:w-[70%] "></hr>
+              <div className="flex flex-col gap-8  mt-4  ">
+                <video
+                  autoPlay
+                  controls
+                  preload="none"
+                  loop
+                  muted
+                  playsInline
+                  className="mx-auto w-full max-w-full"
+                >
+                  <source src="/ACG/LoFi - Tutorial Muted.mp4" />
+                </video>
               </div>
             </div>
           </section>
-
         </main>
       </div>
     </>

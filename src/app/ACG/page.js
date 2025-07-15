@@ -22,7 +22,7 @@ export default function ACG() {
 
           <AppInformation
             appName="Aspects of Elements"
-            appLink="https://pocketpals.vercel.app/"
+            appLink="https://steamcommunity.com/sharedfiles/filedetails/?id=3247582700"
             linkName="Steam Workshop"
             role="Illustrator"
             skills={["Illustrator", "Photoshop"]}
