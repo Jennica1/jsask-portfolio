@@ -37,7 +37,7 @@ export default function AppInformation({ appName, appLink, linkName, role, skill
         </div>
 
         {/* Right Section */}
-        <div className="w-auto ">
+        <div className="w-auto ml-2">
           <h2 className="mt-6 md:mt-2 text-xl font-bold md:text-lg">
             Project Details:
           </h2>

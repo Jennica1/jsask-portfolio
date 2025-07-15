@@ -58,7 +58,7 @@ const projects = [
     description: "Small business' website for booking clients.",
     image: "/lysstyle/Logo.png",
     category: "Development",
-    path: "/lysstyle",
+    path: "/somasync",
   },
 
 ];

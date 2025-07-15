@@ -7,10 +7,10 @@ export default function AppInformation({ appName, appLink, linkName, role, skill
     <section className="flex justify-center">
       <div className="flex flex-col md:flex-row justify-center w-full max-w-4xl items-start md:items-end space-y-6 md:space-y-0">
         {/* Left Section */}
-        <div className="text-sm lg:pt-10 md:text-xs max-w-fit mr-4">
+        <div className="text-sm lg:pt-10 md:text-xs max-w-fit">
           <span className="inline-flex items-baseline pb-1 space-x-2">
 
-            <h2 className="text-4xl font-bold mr-2">{appName}</h2>
+            <h2 className="text-4xl font-bold mr-4">{appName}</h2>
 
             {/* Conditionally render appLink */}
             {appLink && appLink.length > 0 && (
