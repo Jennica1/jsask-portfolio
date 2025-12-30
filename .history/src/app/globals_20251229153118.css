@@ -1,9 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import "swiper/css";
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 :root {
@@ -26,6 +28,6 @@ body {
 }
 
 .exclam-list {
-  list-style-image: url('images/exclam.svg');
+  list-style-image: url('//public/images/exclam.svg');
   padding-left: 1.5rem; 
 }

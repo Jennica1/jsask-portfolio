@@ -1,15 +1,14 @@
-import withTM from 'next-transpile-modules';
-
 /** @type {import('next').NextConfig} */
-const nextConfig = withTM({
+const nextConfig = {
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
-      canvas: false,
+      canvas: false, // Disable the canvas dependency for the browser
     };
     return config;
+   
   },
-  transpileModules: ['pdfjs-dist'],
-});
+    turbopack: {},
+};
 
 export default nextConfig;

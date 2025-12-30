@@ -6,7 +6,9 @@ const nextConfig = {
       canvas: false, // Disable the canvas dependency for the browser
     };
     return config;
+   
   },
+    turbopack: {},
 };
 
 export default nextConfig;
